@@ -17,7 +17,7 @@
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
       <guid>http://example.org/dualboot/hardware/</guid>
-      <description></description>
+      <description>Under construction</description>
     </item>
     
     <item>
@@ -28,6 +28,30 @@
       <guid>http://example.org/dualboot/linuxsoftware/</guid>
       <description>Pop!_OS has a built in software distribution gui called the Pop!_Shop. In this guide we&amp;rsquo;ll start off by installing some common software one might use on a linux machine for general use. Like most built in software management gui&amp;rsquo;s on Linux there is some software available, but its hit or miss. After the easy installs we&amp;rsquo;ll add in more using apt.
 Lets start off with easy installs from the Pop!</description>
+    </item>
+    
+    <item>
+      <title>Markdown Cheatsheet</title>
+      <link>http://example.org/syntax/markdown/</link>
+      <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
+      
+      <guid>http://example.org/syntax/markdown/</guid>
+      <description>Headings Headings from h1 through h6 are constructed with a # for each level:
+# h1 Heading ## h2 Heading ### h3 Heading #### h4 Heading ##### h5 Heading ###### h6 Heading  Renders to:
+h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading HTML:
+&amp;lt;h1&amp;gt;h1 Heading&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;h2 Heading&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;h3 Heading&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;h4 Heading&amp;lt;/h4&amp;gt; &amp;lt;h5&amp;gt;h5 Heading&amp;lt;/h5&amp;gt; &amp;lt;h6&amp;gt;h6 Heading&amp;lt;/h6&amp;gt;  Comments Comments should be HTML compatible
+&amp;lt;!-- This is a comment --&amp;gt;  Comment below should NOT be seen:</description>
+    </item>
+    
+    <item>
+      <title>Shortcodes Examples</title>
+      <link>http://example.org/syntax/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/syntax/shortcodes/</guid>
+      <description>Expand {{%expand &amp;quot;Is this learn theme rocks ?&amp;quot; %}}Yes !.{{% /expand%}}  renders as
+  Is this learn theme rocks ?   Yes !.   Mermaid {{&amp;lt;mermaid align=&amp;quot;left&amp;quot;&amp;gt;}} graph LR; A[Hard edge] --&amp;gt;|Link text| B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two] {{&amp;lt; /mermaid &amp;gt;}}  renders as
+graph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  Instagram {{&amp;lt; instagram BWNjjyYFxVx hidecaption &amp;gt;}}  renders as</description>
     </item>
     
   </channel>

@@ -24,12 +24,22 @@
   </url>
   
   <url>
+    <loc>http://example.org/syntax/markdown/</loc>
+    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/syntax/</loc>
+    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/syntax/</loc>
+    <loc>http://example.org/syntax/shortcodes/</loc>
   </url>
   
   <url>
