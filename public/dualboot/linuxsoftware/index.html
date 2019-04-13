@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.55.1" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+    <title>LinuxSoftware :: Dave Svatora</title>
+
+    
+    <link href="/css/nucleus.css?1555161115" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1555161115" rel="stylesheet">
+    <link href="/css/hybrid.css?1555161115" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1555161115" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1555161115" rel="stylesheet">
+    <link href="/css/auto-complete.css?1555161115" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1555161115" rel="stylesheet">
+    <link href="/css/theme.css?1555161115" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1555161115" rel="stylesheet">
+    
+      <link href="/css/theme-mine.css?1555161115" rel="stylesheet">
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1555161115"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/dualboot/linuxsoftware/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="http://localhost:1313"><img src="/images/me2.jpg"></a>
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1555161115"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1555161115"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/example.org\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1555161115"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/dualboot/" title="My Dualboot System" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/dualboot/">
+          My Dualboot System
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/dualboot/hardware/" title="Hardware" class="dd-item ">
+        <a href="/dualboot/hardware/">
+        Hardware
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/dualboot/linuxsoftware/" title="LinuxSoftware" class="dd-item active">
+        <a href="/dualboot/linuxsoftware/">
+        LinuxSoftware
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/syntax/" title="Markdown Syntax" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/syntax/">
+          Markdown Syntax
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Check me out on <a href="https://github.com/DaveSvatora/documentation" target="_blank">Github</a></p>
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/DaveSvatora/documentation/tree/master/content/dualboot/LinuxSoftware.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                   LinuxSoftware 
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#chromium">Chromium</a></li>
+<li><a href="#spotify">Spotify</a></li>
+<li><a href="#vs-code">VS Code</a></li>
+<li><a href="#telegram">Telegram</a></li>
+<li><a href="#pgadmin-iii">PGAdmin III</a></li>
+<li><a href="#vlc-media-player">VLC Media Player</a></li>
+<li><a href="#kde-connect">KDE Connect</a></li>
+<li><a href="#printer">Printer</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#firefox-removal">Firefox Removal</a></li>
+<li><a href="#docker">Docker</a>
+<ul>
+<li>
+<ul>
+<li><a href="#allow-docker-to-run-without-sudo">Allow docker to run without sudo</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#java">Java</a></li>
+<li><a href="#gradle">Gradle</a></li>
+<li><a href="#nvm-nodejs-and-npm">NVM (Nodejs and NPM)</a></li>
+<li><a href="#setup-git">Setup Git</a></li>
+<li><a href="#runner">Runner</a></li>
+<li><a href="#draw-io">Draw.io</a></li>
+</ul></li>
+<li><a href="#make-windows-10-install-usb-on-pop-os">Make Windows 10 Install USB on Pop!_OS</a>
+<ul>
+<li><a href="#download-windows-10-iso">Download Windows 10 iso</a></li>
+<li><a href="#install-woeusb">Install WoeUSB</a></li>
+<li><a href="#format-usb">Format USB</a></li>
+<li><a href="#hugo">Hugo</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              LinuxSoftware
+            </h1>
+          
+
+        
+
+
+
+
+
+<p><code>Pop!_OS</code> has a built in software distribution gui called the <code>Pop!_Shop</code>. In this guide we&rsquo;ll start off by installing some common software one might use on a linux machine for general use. Like most built in software management gui&rsquo;s on Linux there is some software available, but its hit or miss. After the easy installs we&rsquo;ll add in more using <code>apt</code>.</p>
+
+<p>Lets start off with easy installs from the <strong>Pop!_Shop</strong></p>
+
+<blockquote>
+<p>Pop!_Shop</p>
+</blockquote>
+
+<h4 id="chromium">Chromium</h4>
+
+<ul>
+<li>Go to the <strong>Pop!_Shop</strong></li>
+<li>Search for <code>Chromium</code></li>
+<li>Install <code>Chromium</code></li>
+</ul>
+
+<p><em>Note: Grab the Bitwarden Extension and Material Dark theme</em></p>
+
+<hr />
+
+<h4 id="spotify">Spotify</h4>
+
+<ul>
+<li>Go to the <strong>POP!_Shop</strong></li>
+<li>Search for <code>Spotify</code></li>
+<li>Install <code>Spotify</code></li>
+</ul>
+
+<p>Setup account</p>
+
+<hr />
+
+<h4 id="vs-code">VS Code</h4>
+
+<ul>
+<li>Go to the <strong>POP!_Shop</strong></li>
+<li>Search for <code>Visual Studio Code</code></li>
+<li>Install <code>Visual Studio Code</code></li>
+</ul>
+
+<hr />
+
+<h4 id="telegram">Telegram</h4>
+
+<ul>
+<li>Go to the <strong>POP!_Shop</strong></li>
+<li>Search for <code>Telegram</code></li>
+<li>Install <code>Telegram</code></li>
+</ul>
+
+<hr />
+
+<h4 id="pgadmin-iii">PGAdmin III</h4>
+
+<ul>
+<li>Go to the <strong>POP!_Shop</strong></li>
+<li>Search for <code>PGAdmin III</code></li>
+<li>Install <code>PGAdmin III</code></li>
+</ul>
+
+<hr />
+
+<h4 id="vlc-media-player">VLC Media Player</h4>
+
+<ul>
+<li>Go to the <strong>POP!_Shop</strong></li>
+<li>Search for <code>VLC Media Player</code></li>
+<li>Install <code>VLC Media Player</code></li>
+</ul>
+
+<hr />
+
+<h4 id="kde-connect">KDE Connect</h4>
+
+<ul>
+<li>Go to the <strong>POP!_Shop</strong></li>
+<li>Search for <code>KDE Connect</code></li>
+<li>Install <code>KDE Connect</code></li>
+</ul>
+
+<hr />
+
+<h4 id="printer">Printer</h4>
+
+<ul>
+<li>Plug in printer</li>
+<li>Turn On printer</li>
+<li>It should automatically configure itself</li>
+</ul>
+
+<hr />
+
+<blockquote>
+<p>Time to Fire up the terminal!</p>
+
+<h2 id="firefox-removal">Firefox Removal</h2>
+</blockquote>
+
+<ul>
+<li><p>Uninstall firefox browser
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt purge firefox</code></pre></div></p></li>
+
+<li><p>Remove Hidden folder
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -rf ~/.mozilla</code></pre></div></p></li>
+
+<li><p>Remove root folders
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -rf /usr/lib/firefox-addons/
+rm -rf /usr/lib/firefox</code></pre></div></p></li>
+</ul>
+
+<hr />
+
+<blockquote>
+<h2 id="docker">Docker</h2>
+</blockquote>
+
+<p>See the <a href="https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#install-using-the-repository">Docker Site</a> for the most recent instructions</p>
+
+<ul>
+<li><p>Update
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get update</code></pre></div></p></li>
+
+<li><p>Add Repo
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    apt-transport-https <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    ca-certificates <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    curl <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    software-properties-common</code></pre></div></p></li>
+
+<li><p>Add GPG key
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</code></pre></div></p></li>
+
+<li><p>Fingerprint
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-key fingerprint 0EBFCD88</code></pre></div></p></li>
+
+<li><p>Add Repo
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo add-apt-repository <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>   <span style="color:#e6db74">&#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+</span><span style="color:#e6db74">   </span><span style="color:#66d9ef">$(</span>lsb_release -cs<span style="color:#66d9ef">)</span><span style="color:#e6db74"> \
+</span><span style="color:#e6db74">   stable&#34;</span></code></pre></div></p></li>
+
+<li><p>Install
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install docker-ce</code></pre></div></p></li>
+</ul>
+
+<h4 id="allow-docker-to-run-without-sudo">Allow docker to run without sudo</h4>
+
+<p><a href="https://docs.docker.com/v17.09/engine/installation/linux/linux-postinstall/">Guide</a></p>
+
+<ul>
+<li><p>Create docker group
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo groupadd docker</code></pre></div></p></li>
+
+<li><p>Add your user to the docker group
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -aG docker $USER</code></pre></div></p></li>
+</ul>
+
+<p><strong>REBOOT</strong></p>
+
+<hr />
+
+<blockquote>
+<h2 id="java">Java</h2>
+</blockquote>
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04">Guide</a></p>
+
+<ul>
+<li><p>Update
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update</code></pre></div></p></li>
+
+<li><p>Check if java is installed
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">java -version</code></pre></div></p></li>
+
+<li><p>Install OpenJDK
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install default-jdk</code></pre></div></p></li>
+
+<li><p>Verify
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">javac -version</code></pre></div></p></li>
+</ul>
+
+<blockquote>
+<h2 id="gradle">Gradle</h2>
+</blockquote>
+
+<p><a href="https://gradle.org/install/">Guide</a></p>
+
+<p><a href="https://gradle.org/releases">Download</a></p>
+
+<ul>
+<li><p>Unzip the distribution zip file in the directory of your choosing
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /opt/gradle
+unzip -d /opt/gradle ~/Downloads/gradle-5.2.1-bin.zip
+ls /opt/gradle/gradle-5.2.1</code></pre></div></p></li>
+
+<li><p>Update ~/.profile
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">code .bash_profile</code></pre></div></p></li>
+
+<li><p>Add gradle to the path
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">export GRADLE<span style="color:#f92672">=</span>/opt/gradle/gradle-5.2.1/bin
+export PATH<span style="color:#f92672">=</span>$PATH:$GRADLE</code></pre></div></p></li>
+
+<li><p>Test <em>Note: Reboot may be required</em>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gradle</code></pre></div></p></li>
+</ul>
+
+<blockquote>
+<h2 id="nvm-nodejs-and-npm">NVM (Nodejs and NPM)</h2>
+</blockquote>
+
+<p><a href="https://github.com/creationix/nvm#installation-and-update">Guide</a></p>
+
+<ul>
+<li><p>Install
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code></pre></div></p></li>
+
+<li><p>Verify install
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">command -v nvm</code></pre></div></p></li>
+
+<li><p>Install LTS
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nvm install --lts</code></pre></div></p></li>
+
+<li><p>Verify Node and npm are installed
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">node -v
+npm -v</code></pre></div></p></li>
+</ul>
+
+<h2 id="setup-git">Setup Git</h2>
+
+<p>Git should be installed by default</p>
+
+<p>[Gitlab]()</p>
+
+<p>Generate key</p>
+
+<pre><code class="language-sh">ssh-keygen -t ed25519 -C &lt;email&gt;
+</code></pre>
+
+<p>Copy public key to gitlab.com</p>
+
+<pre><code class="language-sh">code ~/.ssh/id_ed25519.pub
+</code></pre>
+
+<p>Create a development directory and clone a project</p>
+
+<pre><code class="language-sh">mkdir dev
+cd dev
+git clone git@gitlab.com:svatteam44/kidbank.git
+</code></pre>
+
+<h2 id="runner">Runner</h2>
+
+<h2 id="draw-io">Draw.io</h2>
+
+<h1 id="make-windows-10-install-usb-on-pop-os">Make Windows 10 Install USB on Pop!_OS</h1>
+
+<p><a href="https://itsfoss.com/bootable-windows-usb-linux/">Guide</a></p>
+
+<h2 id="download-windows-10-iso">Download Windows 10 iso</h2>
+
+<h2 id="install-woeusb">Install WoeUSB</h2>
+
+<pre><code class="language-sh">sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt update
+sudo apt install woeusb
+</code></pre>
+
+<h2 id="format-usb">Format USB</h2>
+
+<p>Right click usb, choose <code>Format...</code></p>
+
+<p>Choose NTFS</p>
+
+<pre><code class="language-sh">sudo woeusb --device ~/Downloads/Win10_1809Oct_English_x64.iso /dev/sdd --target-device NTFS
+</code></pre>
+
+<p>Select Downloaded ISO</p>
+
+<h2 id="hugo">Hugo</h2>
+
+<p>Install snapd first</p>
+
+<pre><code>sudo apt install snapd
+</code></pre>
+
+<p>Install hugo as a snap</p>
+
+<pre><code>snap install hugo --channel=extended
+</code></pre>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1555161115"></script>
+    <script src="/js/perfect-scrollbar.min.js?1555161115"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1555161115"></script>
+    <script src="/js/jquery.sticky.js?1555161115"></script>
+    <script src="/js/featherlight.min.js?1555161115"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1555161115"></script>
+    <script src="/js/highlight.pack.js?1555161115"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1555161115"></script>
+    <script src="/js/learn.js?1555161115"></script>
+    <script src="/js/hugo-learn.js?1555161115"></script>
+
+    <link href="/mermaid/mermaid.css?1555161115" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1555161115"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+
