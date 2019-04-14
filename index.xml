@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Mini ITX</title>
+      <link>http://example.org/computers_and_stuff/mini_itx/</link>
+      <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
+      
+      <guid>http://example.org/computers_and_stuff/mini_itx/</guid>
+      <description>It started off with just upgrading the i3 processor&amp;hellip;  &amp;hellip;and turned into a bad a$$ custom built machine. My first debate was to buy a 3 year old i7 for ~$300 or get a fairly new Ryzen 5 for half the cost. I&amp;rsquo;ve been an AMD fan for years but didn&amp;rsquo;t have good experiences with bulldozer or the Ryzen 5 2400G (Didn&amp;rsquo;t play well with Linux). After looking at a lot of reviews, benchmarks and youtubes, I landed on the Ryzen 5 2600</description>
+    </item>
+    
+    <item>
       <title>LinuxSoftware</title>
       <link>http://example.org/dualboot/linuxsoftware/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
