@@ -6,9 +6,127 @@
     <description>Recent content in Tags on Dave Svatora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2019 13:09:08 -0500</lastBuildDate>
     
 	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ryzen</title>
+      <link>http://example.org/tags/ryzen/</link>
+      <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
+      
+      <guid>http://example.org/tags/ryzen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>custom</title>
+      <link>http://example.org/tags/custom/</link>
+      <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
+      
+      <guid>http://example.org/tags/custom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dualboot</title>
+      <link>http://example.org/tags/dualboot/</link>
+      <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
+      
+      <guid>http://example.org/tags/dualboot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>itx</title>
+      <link>http://example.org/tags/itx/</link>
+      <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
+      
+      <guid>http://example.org/tags/itx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://example.org/tags/linux/</link>
+      <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
+      
+      <guid>http://example.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apt</title>
+      <link>http://example.org/tags/apt/</link>
+      <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
+      
+      <guid>http://example.org/tags/apt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>http://example.org/tags/docker/</link>
+      <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
+      
+      <guid>http://example.org/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gradle</title>
+      <link>http://example.org/tags/gradle/</link>
+      <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
+      
+      <guid>http://example.org/tags/gradle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodejs</title>
+      <link>http://example.org/tags/nodejs/</link>
+      <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
+      
+      <guid>http://example.org/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pop_!os</title>
+      <link>http://example.org/tags/pop_os/</link>
+      <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
+      
+      <guid>http://example.org/tags/pop_os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spotify</title>
+      <link>http://example.org/tags/spotify/</link>
+      <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
+      
+      <guid>http://example.org/tags/spotify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://example.org/tags/about/</link>
+      <pubDate>Sat, 06 Apr 2019 13:04:51 -0500</pubDate>
+      
+      <guid>http://example.org/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bio</title>
+      <link>http://example.org/tags/bio/</link>
+      <pubDate>Sat, 06 Apr 2019 13:04:51 -0500</pubDate>
+      
+      <guid>http://example.org/tags/bio/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/computers_and_stuff/</loc>
-    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
+    <loc>http://example.org/about_me/</loc>
+    <lastmod>2019-04-06T13:04:51-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/dualboot/</loc>
-    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
+    <loc>http://example.org/computers_and_stuff/</loc>
+    <lastmod>2019-04-06T13:04:51-05:00</lastmod>
   </url>
   
   <url>
@@ -19,17 +19,48 @@
   </url>
   
   <url>
-    <loc>http://example.org/dualboot/hardware/</loc>
-    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://example.org/computers_and_stuff/mini_itx/</loc>
     <lastmod>2019-04-06T13:09:08-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/dualboot/linuxsoftware/</loc>
+    <loc>http://example.org/tags/ryzen/</loc>
+    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/custom/</loc>
+    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/dualboot/</loc>
+    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/itx/</loc>
+    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/linux/</loc>
+    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/computers_and_stuff/linux_software/</loc>
     <lastmod>2019-04-06T13:08:27-05:00</lastmod>
   </url>
   
@@ -44,17 +75,60 @@
   </url>
   
   <url>
+    <loc>http://example.org/tags/apt/</loc>
+    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/docker/</loc>
+    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/gradle/</loc>
+    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/nodejs/</loc>
+    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/pop_os/</loc>
+    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/spotify/</loc>
+    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/about/</loc>
+    <lastmod>2019-04-06T13:04:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/bio/</loc>
+    <lastmod>2019-04-06T13:04:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/syntax/shortcodes/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

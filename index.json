@@ -1,45 +1,80 @@
 [
 {
-	"uri": "http://example.org/computers_and_stuff/",
-	"title": "Computers and Stuff",
-	"tags": [],
+	"uri": "http://example.org/about_me/",
+	"title": "About Me",
+	"tags": ["about", "bio"],
 	"description": "",
-	"content": " My Custom Built Mini ITX In early 2019 I decided to upgrade my mini itx machine to something that would play most current games as well as serve as an awesome developer machine. What started as a cpu only upgrade turned into almost a complete overhaul.\nClick the image to find out more\n\n"
+	"content": ""
 },
 {
-	"uri": "http://example.org/dualboot/",
-	"title": "My Dualboot System",
-	"tags": [],
+	"uri": "http://example.org/computers_and_stuff/",
+	"title": "Computers and Stuff",
+	"tags": ["itx", "custom"],
 	"description": "",
-	"content": " The Guide Dualboot Pop!_OS/Windows This is a guide I use to set up a pc once I install a fresh Linux OS. In this example I used Pop!_OS, which is a downstream Ubuntu distribution. It is currently based on the LTS Ubuntu 18.04 version and uses apt for package management. Happy Reading!!!\n"
+	"content": " My Custom Built Mini ITX In early 2019 I decided to upgrade my mini itx machine to something that would play most current games as well as serve as an awesome developer machine. What started as a cpu only upgrade turned into a one of a kind computer you can\u0026rsquo;t get online or in any store.\nClick the image to find out more\n\nDualboot Pop!_OS/Windows This is a guide I use to set up a pc once I install a fresh Linux OS. In this example I used Pop!_OS, which is a downstream Ubuntu distribution. It is currently based on LTS Ubuntu 18.04 version and uses apt for package management. Happy Reading!!!\n\nvs\n\n"
 },
 {
 	"uri": "http://example.org/",
 	"title": "",
 	"tags": [],
 	"description": "",
-	"content": " Welcome to my site "
+	"content": " Welcome to my site  My name is Dave and I\u0026rsquo;m a Senior Full Stack Software Developer. I wanted to explore how Hugo works and at the same time learn the capabilities of this awesome Learn theme. Another reason I created this site to get a little more hands on experience with Github pages.\n Documentation One of the trends I keep seeing and promoting is the use of static generated sites for storing documentation. Hugo is the second one of these I\u0026rsquo;ve been using and am a big fan already. The other, which I like just as much, is Material for MkDocs.\nBoth of these static site generators are very easy to set up, configure and customize. The biggest benefit/trend I see is utilizing Markdown as the primary file type to document software. Some other benefits include search capabilities, automatic table of contents, ease and speed of deployment, and much much better consumability for developers\n"
 },
 {
-	"uri": "http://example.org/dualboot/hardware/",
-	"title": "Hardware",
+	"uri": "http://example.org/computers_and_stuff/mini_itx/",
+	"title": "Mini ITX",
+	"tags": ["Ryzen", "itx", "linux", "custom", "dualboot"],
+	"description": "",
+	"content": "  It started off with just upgrading the i3 processor\u0026hellip;  \u0026hellip;and turned into a bad a$$ custom built machine you can\u0026rsquo;t get anywhere. My first debate was to buy a 3 year old i7 for ~$300 or get a fairly new Ryzen 5 with 6 cores and 12 threads for half the cost. I\u0026rsquo;ve been an AMD fan for years but didn\u0026rsquo;t have good experiences with bulldozer or the Ryzen 5 2400G (Didn\u0026rsquo;t play well with Linux). After looking at a lot of reviews, benchmarks and youtubes, I landed on the Ryzen 5 2600\nPicking out a new motherboard was next on the list, so I started looking at X470 and B450 ITX boards.\nHardware Specs    Part Description Price     CPU Ryzen 5 2600 $164.99   Motherboard ASUS ROG Strix B450-I $149.52   Graphics EVGA Nvidia GTX 1060 3GB **$105.50   Memory CORSAIR Vengeance RGB PRO 16GB (2x8GB) DDR4 3000MHz $129.99   Storage-1 Samsung 850 EVO 250GB M.2 *$95.32   Storage-2 Kingston Digital SA1000M8/240G A1000 240GB PCIe NVMe M.2 2280 $49.99   Power Corsair CX Series 450 Watt 80 Plus Bronze *$42.49   AIO DEEPCOOL Gamer Storm CAPTAIN 120EX RGB-AIO CPU Liquid Cooler $62.95   Case Materials, Fans, Accesories, etc ***$100.00   Total Cost  $900.75     2016 Purchase* Used** Estimated***  Pictures "
+},
+{
+	"uri": "http://example.org/tags/ryzen/",
+	"title": "Ryzen",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/computers_and_stuff/mini_itx/",
-	"title": "Mini ITX",
+	"uri": "http://example.org/tags/",
+	"title": "Tags",
 	"tags": [],
 	"description": "",
-	"content": "  It started off with just upgrading the i3 processor\u0026hellip;  \u0026hellip;and turned into a bad a$$ custom built machine. My first debate was to buy a 3 year old i7 for ~$300 or get a fairly new Ryzen 5 for half the cost. I\u0026rsquo;ve been an AMD fan for years but didn\u0026rsquo;t have good experiences with bulldozer or the Ryzen 5 2400G (Didn\u0026rsquo;t play well with Linux). After looking at a lot of reviews, benchmarks and youtubes, I landed on the Ryzen 5 2600\nPicking out a new motherboard was next on the list, so I started looking at X470 and B450 ITX boards.\nHardware Specs    Part Description Price     CPU Ryzen 5 2600 $164.99   Motherboard ASUS ROG Strix B450-I $149.52   Graphics EVGA Nvidia GTX 1060 3GB **$105.50   Memory CORSAIR Vengeance RGB PRO 16GB (2x8GB) DDR4 3000MHz $129.99   Storage-1 Samsung 850 EVO 250GB M.2 *$95.32   Storage-2 Kingston Digital SA1000M8/240G A1000 240GB PCIe NVMe M.2 2280 $49.99   Power Corsair CX Series 450 Watt 80 Plus Bronze *$42.49   AIO DEEPCOOL Gamer Storm CAPTAIN 120EX RGB-AIO CPU Liquid Cooler $62.95   Case Materials, Fans, Accesories, etc ***$100.00   Total Cost  $900.75     2016 Purchase* Used** Estimated***  Pictures "
+	"content": ""
 },
 {
-	"uri": "http://example.org/dualboot/linuxsoftware/",
-	"title": "LinuxSoftware",
+	"uri": "http://example.org/tags/custom/",
+	"title": "custom",
 	"tags": [],
 	"description": "",
-	"content": " Pop!_OS has a built in software distribution gui called the Pop!_Shop. In this guide we\u0026rsquo;ll start off by installing some common software one might use on a linux machine for general use. Like most built in software management gui\u0026rsquo;s on Linux there is some software available, but its hit or miss. After the easy installs we\u0026rsquo;ll add in more using apt.\nLets start off with easy installs from the Pop!_Shop\n Pop!_Shop\n Chromium  Go to the Pop!_Shop Search for Chromium Install Chromium  Note: Grab the Bitwarden Extension and Material Dark theme\nSpotify  Go to the POP!_Shop Search for Spotify Install Spotify  Setup account\nVS Code  Go to the POP!_Shop Search for Visual Studio Code Install Visual Studio Code  Telegram  Go to the POP!_Shop Search for Telegram Install Telegram  PGAdmin III  Go to the POP!_Shop Search for PGAdmin III Install PGAdmin III  VLC Media Player  Go to the POP!_Shop Search for VLC Media Player Install VLC Media Player  KDE Connect  Go to the POP!_Shop Search for KDE Connect Install KDE Connect  Printer  Plug in printer Turn On printer It should automatically configure itself   Time to Fire up the terminal!\nFirefox Removal   Uninstall firefox browser sudo apt purge firefox\n Remove Hidden folder rm -rf ~/.mozilla\n Remove root folders rm -rf /usr/lib/firefox-addons/ rm -rf /usr/lib/firefox\n   Docker  See the Docker Site for the most recent instructions\n Update sudo apt-get update\n Add Repo sudo apt-get install \\  apt-transport-https \\  ca-certificates \\  curl \\  software-properties-common\n Add GPG key curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -\n Fingerprint sudo apt-key fingerprint 0EBFCD88\n Add Repo sudo add-apt-repository \\  \u0026#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu \\ $(lsb_release -cs)\\ stable\u0026#34;\n Install sudo apt-get install docker-ce\n  Allow docker to run without sudo Guide\n Create docker group sudo groupadd docker\n Add your user to the docker group sudo usermod -aG docker $USER\n  REBOOT\n Java  Guide\n Update sudo apt update\n Check if java is installed java -version\n Install OpenJDK sudo apt install default-jdk\n Verify javac -version\n   Gradle  Guide\nDownload\n Unzip the distribution zip file in the directory of your choosing mkdir /opt/gradle unzip -d /opt/gradle ~/Downloads/gradle-5.2.1-bin.zip ls /opt/gradle/gradle-5.2.1\n Update ~/.profile code .bash_profile\n Add gradle to the path export GRADLE=/opt/gradle/gradle-5.2.1/bin export PATH=$PATH:$GRADLE\n Test Note: Reboot may be required gradle\n   NVM (Nodejs and NPM)  Guide\n Install curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash\n Verify install command -v nvm\n Install LTS nvm install --lts\n Verify Node and npm are installed node -v npm -v\n  Setup Git Git should be installed by default\n[Gitlab]()\nGenerate key\nssh-keygen -t ed25519 -C \u0026lt;email\u0026gt;  Copy public key to gitlab.com\ncode ~/.ssh/id_ed25519.pub  Create a development directory and clone a project\nmkdir dev cd dev git clone git@github.com:DaveSvatora/documentation.git  Runner Draw.io Make Windows 10 Install USB on Pop!_OS Guide\nDownload Windows 10 iso Install WoeUSB sudo add-apt-repository ppa:nilarimogard/webupd8 sudo apt update sudo apt install woeusb  Format USB Right click usb, choose Format...\nChoose NTFS\nsudo woeusb --device ~/Downloads/Win10_1809Oct_English_x64.iso /dev/sdd --target-device NTFS  Select Downloaded ISO\nHugo Install snapd first\nsudo apt install snapd  Install hugo as a snap\nsnap install hugo --channel=extended  "
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/dualboot/",
+	"title": "dualboot",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/itx/",
+	"title": "itx",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/linux/",
+	"title": "linux",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/computers_and_stuff/linux_software/",
+	"title": "LinuxSoftware",
+	"tags": ["linux", "apt", "docker", "gradle", "nodejs", "spotify", "pop_!os"],
+	"description": "",
+	"content": " Pop!_OS has a built in software distribution gui called the Pop!_Shop. In this guide we\u0026rsquo;ll start off by installing some common software one might use on a linux machine for general use. Like most built in software management gui\u0026rsquo;s on Linux there is some software available, but its hit or miss. After the easy installs we\u0026rsquo;ll add in more using apt.\nLets start off with easy installs from the Pop!_Shop\nPop!_Shop To open the pop!_shop hit the Super key (windows key depending on your keyboard) and type pop. You should see the pop shop in your list of applications, open it up and lets start installing all of these great free software\n Chromium Note: Grab the Bitwarden Extension and Material Dark theme Spotify VS Code Telegram PGAdmin III (Postgresql) VLC Media Player KDE Connect  Setting up my HP Printer  Plug in printer Turn On printer It should automatically configure itself   Time to Fire up the terminal and do some real damage!\n Firefox Removal  Uninstall firefox browser\nsudo apt purge firefox  Remove Hidden folder\nrm -rf ~/.mozilla  Remove root folders\nrm -rf /usr/lib/firefox-addons/ rm -rf /usr/lib/firefox   Docker See the Docker Site for the most recent instructions\n Update\nsudo apt-get update  Add Repo\nsudo apt-get install \\ apt-transport-https \\ ca-certificates \\ curl \\ software-properties-common  Add GPG key\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  Fingerprint\nsudo apt-key fingerprint 0EBFCD88  Add Repo\nsudo add-apt-repository \\ \u0026quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \\ $(lsb_release -cs) \\ stable\u0026quot;  Install\nsudo apt-get install docker-ce   Allow docker to run without sudo Guide\n Create docker group\nsudo groupadd docker  Add your user to the docker group\nsudo usermod -aG docker $USER   REBOOT your machine\nJava Guide\n Update\nsudo apt update  Check if java is installed\njava -version  Install OpenJDK\nsudo apt install default-jdk  Verify\njavac -version   Gradle Guide\nDownload\n Unzip the distribution zip file in the directory of your choosing\nmkdir /opt/gradle unzip -d /opt/gradle ~/Downloads/gradle-5.2.1-bin.zip ls /opt/gradle/gradle-5.2.1  Update ~/.profile\ncode ~/.profile  Add gradle to the path\nexport GRADLE=/opt/gradle/gradle-5.2.1/bin export PATH=$PATH:$GRADLE  Test Note: Reboot may be required\ngradle   NVM (Nodejs and NPM) Guide\n Install\ncurl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash  Verify install\ncommand -v nvm  Install LTS\nnvm install --lts  Verify Node and npm are installed\nnode -v npm -v   Setup Git Git should be installed by default\n[Gitlab]()\nGenerate key\nssh-keygen -t ed25519 -C \u0026lt;email\u0026gt;  Copy public key to gitlab.com\ncode ~/.ssh/id_ed25519.pub  Create a development directory and clone a project\nmkdir dev cd dev git clone git@github.com:DaveSvatora/documentation.git  Runner Draw.io Make Windows 10 Install USB on Pop!_OS Guide\nDownload Windows 10 iso Install WoeUSB sudo add-apt-repository ppa:nilarimogard/webupd8 sudo apt update sudo apt install woeusb  Format USB Right click usb, choose Format...\nChoose NTFS\nsudo woeusb --device ~/Downloads/Win10_1809Oct_English_x64.iso /dev/sdd --target-device NTFS  Select Downloaded ISO\nHugo Install snapd first\nsudo apt install snapd  Install hugo as a snap\nsnap install hugo --channel=extended  "
 },
 {
 	"uri": "http://example.org/syntax/markdown/",
@@ -56,6 +91,62 @@
 	"content": " Markdown Markdown is the primary document type for hugo. Markdown syntax is a mechanism for helping to display content. When the site is generated the markdown syntax is used to transform it to html.\nSee markdown examples Shortcodes Shortcodes are a special syntax to help display predefined content types. Below are examples I found useful for this theme. You can read more about shortcodes in the hugo documentation or in the theme documentation\nSee shortcodes examples "
 },
 {
+	"uri": "http://example.org/tags/apt/",
+	"title": "apt",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/docker/",
+	"title": "docker",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/gradle/",
+	"title": "gradle",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/nodejs/",
+	"title": "nodejs",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/pop_os/",
+	"title": "pop_!os",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/spotify/",
+	"title": "spotify",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/about/",
+	"title": "about",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/bio/",
+	"title": "bio",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "http://example.org/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -68,11 +159,4 @@
 	"tags": [],
 	"description": "Disclaimers to help you structure your page",
 	"content": " Expand {{%expand \u0026quot;Is this learn theme rocks ?\u0026quot; %}}Yes !.{{% /expand%}}  renders as\n  Is this learn theme rocks ?   Yes !.   Mermaid {{\u0026lt;mermaid align=\u0026quot;left\u0026quot;\u0026gt;}} graph LR; A[Hard edge] --\u0026gt;|Link text| B(Round edge) B --\u0026gt; C{Decision} C --\u0026gt;|One| D[Result one] C --\u0026gt;|Two| E[Result two] {{\u0026lt; /mermaid \u0026gt;}}  renders as\ngraph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  Instagram {{\u0026lt; instagram BWNjjyYFxVx hidecaption \u0026gt;}}  renders as\n  View this post on Instagram         A post shared by Bjørn Erik Pedersen (@bepsays) on Jul 6, 2017 at 9:27am PDT\n  Tweet {{\u0026lt; tweet 877500564405444608 \u0026gt;}}  renders as\nHugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays\n\u0026mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo {{\u0026lt; vimeo 146022717 \u0026gt;}}  renders as\n  Youtube {{\u0026lt; youtube w7Ft2ymGmfc \u0026gt;}}  renders as\n  {{% /expand%}}\n"
-},
-{
-	"uri": "http://example.org/tags/",
-	"title": "Tags",
-	"tags": [],
-	"description": "",
-	"content": ""
 }]

@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Tags :: Dave Svatora</title>
+    <title>LinuxSoftware :: Dave Svatora</title>
 
     
     <link href="/css/nucleus.css?1555545209" rel="stylesheet">
@@ -39,7 +39,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tags/">
+  <body class="" data-url="/computers_and_stuff/linux_software/">
     <nav id="sidebar" class="">
 
 
@@ -85,7 +85,7 @@
   
     
     <li data-nav-id="/computers_and_stuff/" title="Computers and Stuff" class="dd-item 
-        
+        parent
         
         
         ">
@@ -128,7 +128,7 @@
  
   
     
-      <li data-nav-id="/computers_and_stuff/linux_software/" title="LinuxSoftware" class="dd-item ">
+      <li data-nav-id="/computers_and_stuff/linux_software/" title="LinuxSoftware" class="dd-item active">
         <a href="/computers_and_stuff/linux_software/">
         LinuxSoftware
         
@@ -253,6 +253,17 @@
               <div>
                 <div id="top-bar">
                 
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/DaveSvatora/documentation/tree/master/content/computers_and_stuff/linux_software.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
                 
                 <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <span id="sidebar-toggle-span">
@@ -266,14 +277,43 @@
                   <span class="links">
                  
                  
-                   Tags 
+                   LinuxSoftware 
                  
                   </span>
                 </div>
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#pop-shop">Pop!_Shop</a></li>
+<li><a href="#setting-up-my-hp-printer">Setting up my HP Printer</a></li>
+<li><a href="#firefox-removal">Firefox Removal</a></li>
+<li><a href="#docker">Docker</a>
+<ul>
+<li><a href="#allow-docker-to-run-without-sudo">Allow docker to run without sudo</a></li>
+</ul></li>
+<li><a href="#java">Java</a></li>
+<li><a href="#gradle">Gradle</a></li>
+<li><a href="#nvm-nodejs-and-npm">NVM (Nodejs and NPM)</a></li>
+</ul></li>
+<li><a href="#setup-git">Setup Git</a></li>
+<li><a href="#runner">Runner</a></li>
+<li><a href="#draw-io">Draw.io</a></li>
+<li><a href="#make-windows-10-install-usb-on-pop-os">Make Windows 10 Install USB on Pop!_OS</a>
+<ul>
+<li><a href="#download-windows-10-iso">Download Windows 10 iso</a></li>
+<li><a href="#install-woeusb">Install WoeUSB</a></li>
+<li><a href="#format-usb">Format USB</a></li>
+</ul></li>
+<li><a href="#hugo">Hugo</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -283,13 +323,31 @@
             
         <div id="head-tags">
         
+<div class="tags">
+
+  <a class="tag-link" href="/tags/linux">linux</a>
+
+  <a class="tag-link" href="/tags/apt">apt</a>
+
+  <a class="tag-link" href="/tags/docker">docker</a>
+
+  <a class="tag-link" href="/tags/gradle">gradle</a>
+
+  <a class="tag-link" href="/tags/nodejs">nodejs</a>
+
+  <a class="tag-link" href="/tags/spotify">spotify</a>
+
+  <a class="tag-link" href="/tags/pop_os">pop_!os</a>
+
+</div>
+
         </div>
         
         <div id="body-inner">
           
             <h1>
               
-              Tags
+              LinuxSoftware
             </h1>
           
 
@@ -299,41 +357,283 @@
 
 
 
+<p><code>Pop!_OS</code> has a built in software distribution gui called the <code>Pop!_Shop</code>. In this guide we&rsquo;ll start off by installing some common software one might use on a linux machine for general use. Like most built in software management gui&rsquo;s on Linux there is some software available, but its hit or miss. After the easy installs we&rsquo;ll add in more using <code>apt</code>.</p>
+
+<p>Lets start off with easy installs from the <strong>Pop!_Shop</strong></p>
+
+<hr />
+
+<h3 id="pop-shop">Pop!_Shop</h3>
+
+<p>To open the pop!_shop hit the Super key (windows key depending on your keyboard) and type <code>pop</code>. You should see the pop shop in your list of applications, open it up and lets start installing all of these great <code>free</code> software</p>
 
 <ul>
-	
-		<li><a href="/tags/ryzen/">Ryzen</a></li>
-	
-		<li><a href="/tags/custom/">custom</a></li>
-	
-		<li><a href="/tags/dualboot/">dualboot</a></li>
-	
-		<li><a href="/tags/itx/">itx</a></li>
-	
-		<li><a href="/tags/linux/">linux</a></li>
-	
-		<li><a href="/tags/apt/">apt</a></li>
-	
-		<li><a href="/tags/docker/">docker</a></li>
-	
-		<li><a href="/tags/gradle/">gradle</a></li>
-	
-		<li><a href="/tags/nodejs/">nodejs</a></li>
-	
-		<li><a href="/tags/pop_os/">pop_!os</a></li>
-	
-		<li><a href="/tags/spotify/">spotify</a></li>
-	
-		<li><a href="/tags/about/">about</a></li>
-	
-		<li><a href="/tags/bio/">bio</a></li>
-	
+<li><strong>Chromium</strong> <em>Note: Grab the Bitwarden Extension and Material Dark theme</em></li>
+<li><strong>Spotify</strong></li>
+<li><strong>VS Code</strong></li>
+<li><strong>Telegram</strong></li>
+<li><strong>PGAdmin III</strong> (Postgresql)</li>
+<li><strong>VLC Media Player</strong></li>
+<li><strong>KDE Connect</strong></li>
 </ul>
+
+<hr />
+
+<h3 id="setting-up-my-hp-printer">Setting up my HP Printer</h3>
+
+<ul>
+<li>Plug in printer</li>
+<li>Turn On printer</li>
+<li>It should automatically configure itself</li>
+</ul>
+
+<hr />
+
+<blockquote>
+<p>Time to Fire up the terminal and do some real damage!</p>
+</blockquote>
+
+<h3 id="firefox-removal">Firefox Removal</h3>
+
+<ul>
+<li><p>Uninstall firefox browser</p>
+
+<pre><code>sudo apt purge firefox
+</code></pre></li>
+
+<li><p>Remove Hidden folder</p>
+
+<pre><code>rm -rf ~/.mozilla
+</code></pre></li>
+
+<li><p>Remove root folders</p>
+
+<pre><code>rm -rf /usr/lib/firefox-addons/
+rm -rf /usr/lib/firefox
+</code></pre></li>
+</ul>
+
+<hr />
+
+<h3 id="docker">Docker</h3>
+
+<p>See the <a href="https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#install-using-the-repository">Docker Site</a> for the most recent instructions</p>
+
+<ul>
+<li><p>Update</p>
+
+<pre><code>sudo apt-get update
+</code></pre></li>
+
+<li><p>Add Repo</p>
+
+<pre><code>sudo apt-get install \
+apt-transport-https \
+ca-certificates \
+curl \
+software-properties-common
+</code></pre></li>
+
+<li><p>Add GPG key</p>
+
+<pre><code>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+</code></pre></li>
+
+<li><p>Fingerprint</p>
+
+<pre><code>sudo apt-key fingerprint 0EBFCD88
+</code></pre></li>
+
+<li><p>Add Repo</p>
+
+<pre><code>sudo add-apt-repository \
+&quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+$(lsb_release -cs) \
+stable&quot;
+</code></pre></li>
+
+<li><p>Install</p>
+
+<pre><code>sudo apt-get install docker-ce
+</code></pre></li>
+</ul>
+
+<h4 id="allow-docker-to-run-without-sudo">Allow docker to run without sudo</h4>
+
+<p><a href="https://docs.docker.com/v17.09/engine/installation/linux/linux-postinstall/">Guide</a></p>
+
+<ul>
+<li><p>Create docker group</p>
+
+<pre><code>sudo groupadd docker
+</code></pre></li>
+
+<li><p>Add your user to the docker group</p>
+
+<pre><code>sudo usermod -aG docker $USER
+</code></pre></li>
+</ul>
+
+<p><strong>REBOOT</strong> your machine</p>
+
+<hr />
+
+<h3 id="java">Java</h3>
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04">Guide</a></p>
+
+<ul>
+<li><p>Update</p>
+
+<pre><code>sudo apt update
+</code></pre></li>
+
+<li><p>Check if java is installed</p>
+
+<pre><code>java -version
+</code></pre></li>
+
+<li><p>Install OpenJDK</p>
+
+<pre><code>sudo apt install default-jdk
+</code></pre></li>
+
+<li><p>Verify</p>
+
+<pre><code>javac -version
+</code></pre></li>
+</ul>
+
+<h3 id="gradle">Gradle</h3>
+
+<p><a href="https://gradle.org/install/">Guide</a></p>
+
+<p><a href="https://gradle.org/releases">Download</a></p>
+
+<ul>
+<li><p>Unzip the distribution zip file in the directory of your choosing</p>
+
+<pre><code>mkdir /opt/gradle
+unzip -d /opt/gradle ~/Downloads/gradle-5.2.1-bin.zip
+ls /opt/gradle/gradle-5.2.1
+</code></pre></li>
+
+<li><p>Update <code>~/.profile</code></p>
+
+<pre><code>code ~/.profile
+</code></pre></li>
+
+<li><p>Add gradle to the path</p>
+
+<pre><code>export GRADLE=/opt/gradle/gradle-5.2.1/bin
+export PATH=$PATH:$GRADLE
+</code></pre></li>
+
+<li><p>Test <em>Note: Reboot may be required</em></p>
+
+<pre><code>gradle
+</code></pre></li>
+</ul>
+
+<h3 id="nvm-nodejs-and-npm">NVM (Nodejs and NPM)</h3>
+
+<p><a href="https://github.com/creationix/nvm#installation-and-update">Guide</a></p>
+
+<ul>
+<li><p>Install</p>
+
+<pre><code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+</code></pre></li>
+
+<li><p>Verify install</p>
+
+<pre><code>command -v nvm
+</code></pre></li>
+
+<li><p>Install LTS</p>
+
+<pre><code>nvm install --lts
+</code></pre></li>
+
+<li><p>Verify Node and npm are installed</p>
+
+<pre><code>node -v
+npm -v
+</code></pre></li>
+</ul>
+
+<h2 id="setup-git">Setup Git</h2>
+
+<p>Git should be installed by default</p>
+
+<p>[Gitlab]()</p>
+
+<p>Generate key</p>
+
+<pre><code>ssh-keygen -t ed25519 -C &lt;email&gt;
+</code></pre>
+
+<p>Copy public key to gitlab.com</p>
+
+<pre><code>code ~/.ssh/id_ed25519.pub
+</code></pre>
+
+<p>Create a development directory and clone a project</p>
+
+<pre><code>mkdir dev
+cd dev
+git clone git@github.com:DaveSvatora/documentation.git
+</code></pre>
+
+<h2 id="runner">Runner</h2>
+
+<h2 id="draw-io">Draw.io</h2>
+
+<hr />
+
+<h2 id="make-windows-10-install-usb-on-pop-os">Make Windows 10 Install USB on Pop!_OS</h2>
+
+<p><a href="https://itsfoss.com/bootable-windows-usb-linux/">Guide</a></p>
+
+<h3 id="download-windows-10-iso">Download Windows 10 iso</h3>
+
+<h3 id="install-woeusb">Install WoeUSB</h3>
+
+<pre><code>sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt update
+sudo apt install woeusb
+</code></pre>
+
+<h3 id="format-usb">Format USB</h3>
+
+<p>Right click usb, choose <code>Format...</code></p>
+
+<p>Choose NTFS</p>
+
+<pre><code>sudo woeusb --device ~/Downloads/Win10_1809Oct_English_x64.iso /dev/sdd --target-device NTFS
+</code></pre>
+
+<p>Select Downloaded ISO</p>
+
+<hr />
+
+<h2 id="hugo">Hugo</h2>
+
+<p>Install snapd first</p>
+
+<pre><code>sudo apt install snapd
+</code></pre>
+
+<p>Install hugo as a snap</p>
+
+<pre><code>snap install hugo --channel=extended
+</code></pre>
 
 
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -385,6 +685,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -397,6 +698,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -414,6 +718,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -432,6 +737,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -512,3 +820,4 @@
 
   </body>
 </html>
+
