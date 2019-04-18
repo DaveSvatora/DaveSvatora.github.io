@@ -3,138 +3,138 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about_me/</loc>
+    <loc>http://davesvatora.github.io/about_me/</loc>
     <lastmod>2019-04-06T13:04:51-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/computers_and_stuff/</loc>
+    <loc>http://davesvatora.github.io/computers_and_stuff/</loc>
     <lastmod>2019-04-06T13:04:51-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://davesvatora.github.io/</loc>
     <lastmod>2019-04-06T13:09:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/computers_and_stuff/mini_itx/</loc>
+    <loc>http://davesvatora.github.io/computers_and_stuff/mini_itx/</loc>
     <lastmod>2019-04-06T13:09:08-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/ryzen/</loc>
-    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://davesvatora.github.io/tags/ryzen/</loc>
     <lastmod>2019-04-06T13:09:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/custom/</loc>
+    <loc>http://davesvatora.github.io/tags/</loc>
     <lastmod>2019-04-06T13:09:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/dualboot/</loc>
+    <loc>http://davesvatora.github.io/tags/custom/</loc>
     <lastmod>2019-04-06T13:09:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/itx/</loc>
+    <loc>http://davesvatora.github.io/tags/dualboot/</loc>
     <lastmod>2019-04-06T13:09:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/linux/</loc>
+    <loc>http://davesvatora.github.io/tags/itx/</loc>
     <lastmod>2019-04-06T13:09:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/computers_and_stuff/linux_software/</loc>
+    <loc>http://davesvatora.github.io/tags/linux/</loc>
+    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://davesvatora.github.io/computers_and_stuff/linux_software/</loc>
     <lastmod>2019-04-06T13:08:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/syntax/markdown/</loc>
+    <loc>http://davesvatora.github.io/syntax/markdown/</loc>
     <lastmod>2019-04-06T13:08:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/syntax/</loc>
+    <loc>http://davesvatora.github.io/syntax/</loc>
     <lastmod>2019-04-06T13:08:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/apt/</loc>
+    <loc>http://davesvatora.github.io/tags/apt/</loc>
     <lastmod>2019-04-06T13:08:27-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/docker/</loc>
+    <loc>http://davesvatora.github.io/tags/docker/</loc>
     <lastmod>2019-04-06T13:08:27-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/gradle/</loc>
+    <loc>http://davesvatora.github.io/tags/gradle/</loc>
     <lastmod>2019-04-06T13:08:27-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/nodejs/</loc>
+    <loc>http://davesvatora.github.io/tags/nodejs/</loc>
     <lastmod>2019-04-06T13:08:27-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/pop_os/</loc>
+    <loc>http://davesvatora.github.io/tags/pop_os/</loc>
     <lastmod>2019-04-06T13:08:27-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/spotify/</loc>
+    <loc>http://davesvatora.github.io/tags/spotify/</loc>
     <lastmod>2019-04-06T13:08:27-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/about/</loc>
-    <lastmod>2019-04-06T13:04:51-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/bio/</loc>
+    <loc>http://davesvatora.github.io/tags/about/</loc>
     <lastmod>2019-04-06T13:04:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/simplicity/</loc>
+    <loc>http://davesvatora.github.io/tags/bio/</loc>
     <lastmod>2019-04-06T13:04:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://davesvatora.github.io/tags/simplicity/</loc>
+    <lastmod>2019-04-06T13:04:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/syntax/shortcodes/</loc>
+    <loc>http://davesvatora.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://davesvatora.github.io/syntax/shortcodes/</loc>
   </url>
   
 </urlset>

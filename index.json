@@ -1,167 +1,167 @@
 [
 {
-	"uri": "http://example.org/about_me/",
+	"uri": "http://davesvatora.github.io/about_me/",
 	"title": "About Me",
 	"tags": ["about", "bio", "simplicity"],
 	"description": "",
 	"content": "  \u0026ldquo;Hello Devs\u0026rdquo;  Career I\u0026rsquo;ve been a software developer since 2003 (16 years at the time of creating this site). Currently I work for a very large Fortune 50 company. During the course of that time I\u0026rsquo;ve been fortunate to gain a lot of experience in quite a few technologies.\nLately I\u0026rsquo;ve been doing some Java Spring Boot API\u0026rsquo;s for some of our internal backend software. Prior to that I was working in a research area and got to build proof of concept ideas that showcased newer software, databases and cloud functionality. I was also involved in creating continuous integration/continuous delivery automation primarily using GitlabCI, but I also have done quite a bit using Jenkins as well. Containerization has been another focus area for me for the last 3 years or so, and have Dockerized several dozen applications and databases.\nOn the UI front I\u0026rsquo;ve got experience with Angular, Vuejs, Nodejs, Material Design, Bootstrap, Webpack, etc etc.\nI like to play with software and hardware, and feel like I can teach myself just about anything. One of my driving motivations is to implement solutions that are user friendly and as simplistic as possible. I also believe in using the right tool for the job, doing things the right way.\nFamily I\u0026rsquo;m a happily married man with 4 wonderful children. I believe in family values and have strong morals and convictions. With that said we like to have fun, and I enjoy every precious moment and character flaws in all of them.\nHobbies  Building computers Linux Building Apps Sports Scotch Ancient History Cars Anything Do It Yourself Learning about stuff (I\u0026rsquo;m by no means a \u0026ldquo;know it all\u0026rdquo;)  "
 },
 {
-	"uri": "http://example.org/computers_and_stuff/",
+	"uri": "http://davesvatora.github.io/computers_and_stuff/",
 	"title": "Computers and Stuff",
 	"tags": ["itx", "custom"],
 	"description": "",
 	"content": " My Custom Built Mini ITX In early 2019 I decided to upgrade my mini itx machine to something that would play most current games as well as serve as an awesome developer machine. What started as a cpu only upgrade turned into a one of a kind computer you can\u0026rsquo;t get online or in any store.\nClick the image to find out more\n\nDualboot Pop!_OS/Windows This is a guide I use to set up a pc once I install a fresh Linux OS. In this example I used Pop!_OS, which is a downstream Ubuntu distribution. It is currently based on LTS Ubuntu 18.04 version and uses apt for package management. Happy Reading!!!\n\nvs\n\n"
 },
 {
-	"uri": "http://example.org/",
+	"uri": "http://davesvatora.github.io/",
 	"title": "",
 	"tags": [],
 	"description": "",
 	"content": " Welcome to my site  My name is Dave and I\u0026rsquo;m a Senior Full Stack Software Developer. I wanted to explore how Hugo works and at the same time learn the capabilities of this awesome Learn theme. Another reason I created this site to get a little more hands on experience with Github pages.\n Documentation One of the trends I keep seeing and promoting is the use of static generated sites for storing documentation. Hugo is the second one of these I\u0026rsquo;ve been using and am a big fan already. The other, which I like just as much, is Material for MkDocs.\nBoth of these static site generators are very easy to set up, configure and customize. The biggest benefit/trend I see is utilizing Markdown as the primary file type to document software. Some other benefits include search capabilities, automatic table of contents, ease and speed of deployment, and much much better consumability for developers\n"
 },
 {
-	"uri": "http://example.org/computers_and_stuff/mini_itx/",
+	"uri": "http://davesvatora.github.io/computers_and_stuff/mini_itx/",
 	"title": "Mini ITX",
 	"tags": ["Ryzen", "itx", "linux", "custom", "dualboot"],
 	"description": "",
 	"content": "  It started off with just upgrading the i3 processor\u0026hellip;  \u0026hellip;and turned into a bad a$$ custom built machine you can\u0026rsquo;t get anywhere. My first debate was to buy a 3 year old i7 for ~$300 or get a fairly new Ryzen 5 with 6 cores and 12 threads for half the cost. I\u0026rsquo;ve been an AMD fan for years but didn\u0026rsquo;t have good experiences with bulldozer or the Ryzen 5 2400G (Didn\u0026rsquo;t play well with Linux). After looking at a lot of reviews, benchmarks and youtubes, I landed on the Ryzen 5 2600\nPicking out a new motherboard was next on the list, so I started looking at X470 and B450 ITX boards.\nHardware Specs    Part Description Price     CPU Ryzen 5 2600 $164.99   Motherboard ASUS ROG Strix B450-I $149.52   Graphics EVGA Nvidia GTX 1060 3GB **$105.50   Memory CORSAIR Vengeance RGB PRO 16GB (2x8GB) DDR4 3000MHz $129.99   Storage-1 Samsung 850 EVO 250GB M.2 *$95.32   Storage-2 Kingston Digital SA1000M8/240G A1000 240GB PCIe NVMe M.2 2280 $49.99   Power Corsair CX Series 450 Watt 80 Plus Bronze *$42.49   AIO DEEPCOOL Gamer Storm CAPTAIN 120EX RGB-AIO CPU Liquid Cooler $62.95   Case Materials, Fans, Accesories, etc ***$100.00   Total Cost  $900.75     2016 Purchase* Used** Estimated***  Pictures "
 },
 {
-	"uri": "http://example.org/tags/ryzen/",
+	"uri": "http://davesvatora.github.io/tags/ryzen/",
 	"title": "Ryzen",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/",
+	"uri": "http://davesvatora.github.io/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/custom/",
+	"uri": "http://davesvatora.github.io/tags/custom/",
 	"title": "custom",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/dualboot/",
+	"uri": "http://davesvatora.github.io/tags/dualboot/",
 	"title": "dualboot",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/itx/",
+	"uri": "http://davesvatora.github.io/tags/itx/",
 	"title": "itx",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/linux/",
+	"uri": "http://davesvatora.github.io/tags/linux/",
 	"title": "linux",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/computers_and_stuff/linux_software/",
+	"uri": "http://davesvatora.github.io/computers_and_stuff/linux_software/",
 	"title": "LinuxSoftware",
 	"tags": ["linux", "apt", "docker", "gradle", "nodejs", "spotify", "pop_!os"],
 	"description": "",
 	"content": " Pop!_OS has a built in software distribution gui called the Pop!_Shop. In this guide we\u0026rsquo;ll start off by installing some common software one might use on a linux machine for general use. Like most built in software management gui\u0026rsquo;s on Linux there is some software available, but its hit or miss. After the easy installs we\u0026rsquo;ll add in more using apt.\nLets start off with easy installs from the Pop!_Shop\nPop!_Shop To open the pop!_shop hit the Super key (windows key depending on your keyboard) and type pop. You should see the pop shop in your list of applications, open it up and lets start installing all of these great free software\n Chromium Note: Grab the Bitwarden Extension and Material Dark theme Spotify VS Code Telegram PGAdmin III (Postgresql) VLC Media Player KDE Connect  Setting up my HP Printer  Plug in printer Turn On printer It should automatically configure itself   Time to Fire up the terminal and do some real damage!\n Firefox Removal  Uninstall firefox browser\nsudo apt purge firefox  Remove Hidden folder\nrm -rf ~/.mozilla  Remove root folders\nrm -rf /usr/lib/firefox-addons/ rm -rf /usr/lib/firefox   Docker See the Docker Site for the most recent instructions\n Update\nsudo apt-get update  Add Repo\nsudo apt-get install \\ apt-transport-https \\ ca-certificates \\ curl \\ software-properties-common  Add GPG key\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  Fingerprint\nsudo apt-key fingerprint 0EBFCD88  Add Repo\nsudo add-apt-repository \\ \u0026quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \\ $(lsb_release -cs) \\ stable\u0026quot;  Install\nsudo apt-get install docker-ce   Allow docker to run without sudo Guide\n Create docker group\nsudo groupadd docker  Add your user to the docker group\nsudo usermod -aG docker $USER   REBOOT your machine\nJava Guide\n Update\nsudo apt update  Check if java is installed\njava -version  Install OpenJDK\nsudo apt install default-jdk  Verify\njavac -version   Gradle Guide\nDownload\n Unzip the distribution zip file in the directory of your choosing\nmkdir /opt/gradle unzip -d /opt/gradle ~/Downloads/gradle-5.2.1-bin.zip ls /opt/gradle/gradle-5.2.1  Update ~/.profile\ncode ~/.profile  Add gradle to the path\nexport GRADLE=/opt/gradle/gradle-5.2.1/bin export PATH=$PATH:$GRADLE  Test Note: Reboot may be required\ngradle   NVM (Nodejs and NPM) Guide\n Install\ncurl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash  Verify install\ncommand -v nvm  Install LTS\nnvm install --lts  Verify Node and npm are installed\nnode -v npm -v    Setup Git Git should be installed by default\n[Gitlab]()\nGenerate key\nssh-keygen -t ed25519 -C \u0026lt;email\u0026gt;  Copy public key to gitlab.com\ncode ~/.ssh/id_ed25519.pub  Create a development directory and clone a project\nmkdir dev cd dev git clone git@github.com:DaveSvatora/documentation.git  Runner Draw.io Make Windows 10 Install USB on Pop!_OS Guide\nDownload Windows 10 iso Install WoeUSB sudo add-apt-repository ppa:nilarimogard/webupd8 sudo apt update sudo apt install woeusb  Format USB Right click usb, choose Format...\nChoose NTFS\nsudo woeusb --device ~/Downloads/Win10_1809Oct_English_x64.iso /dev/sdd --target-device NTFS  Select Downloaded ISO\nHugo Install snapd first\nsudo apt install snapd  Install hugo as a snap\nsnap install hugo --channel=extended  "
 },
 {
-	"uri": "http://example.org/syntax/markdown/",
+	"uri": "http://davesvatora.github.io/syntax/markdown/",
 	"title": "Markdown Cheatsheet",
 	"tags": [],
 	"description": "",
 	"content": " Headings Headings from h1 through h6 are constructed with a # for each level:\n# h1 Heading ## h2 Heading ### h3 Heading #### h4 Heading ##### h5 Heading ###### h6 Heading  Renders to:\nh1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading HTML:\n\u0026lt;h1\u0026gt;h1 Heading\u0026lt;/h1\u0026gt; \u0026lt;h2\u0026gt;h2 Heading\u0026lt;/h2\u0026gt; \u0026lt;h3\u0026gt;h3 Heading\u0026lt;/h3\u0026gt; \u0026lt;h4\u0026gt;h4 Heading\u0026lt;/h4\u0026gt; \u0026lt;h5\u0026gt;h5 Heading\u0026lt;/h5\u0026gt; \u0026lt;h6\u0026gt;h6 Heading\u0026lt;/h6\u0026gt;  Comments Comments should be HTML compatible\n\u0026lt;!-- This is a comment --\u0026gt;  Comment below should NOT be seen:\nHorizontal Rules The HTML \u0026lt;hr\u0026gt; element is for creating a \u0026ldquo;thematic break\u0026rdquo; between paragraph-level elements. In markdown, you can create a \u0026lt;hr\u0026gt; with any of the following:\n ___: three consecutive underscores ---: three consecutive dashes ***: three consecutive asterisks  renders to:\nBody Copy Body copy written as normal, plain text will be wrapped with \u0026lt;p\u0026gt;\u0026lt;/p\u0026gt; tags in the rendered HTML.\nSo this body copy:\nLorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.  renders to this HTML:\n\u0026lt;p\u0026gt;Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.\u0026lt;/p\u0026gt;  Emphasis Bold For emphasizing a snippet of text with a heavier font-weight.\nThe following snippet of text is rendered as bold text.\n**rendered as bold text**  renders to:\nrendered as bold text\nand this HTML\n\u0026lt;strong\u0026gt;rendered as bold text\u0026lt;/strong\u0026gt;  Italics For emphasizing a snippet of text with italics.\nThe following snippet of text is rendered as italicized text.\n_rendered as italicized text_  renders to:\nrendered as italicized text\nand this HTML:\n\u0026lt;em\u0026gt;rendered as italicized text\u0026lt;/em\u0026gt;  strikethrough In GFM (GitHub flavored Markdown) you can do strikethroughs.\n~~Strike through this text.~~  Which renders to:\nStrike through this text.\nHTML:\n\u0026lt;del\u0026gt;Strike through this text.\u0026lt;/del\u0026gt;  Blockquotes For quoting blocks of content from another source within your document.\nAdd \u0026gt; before any text you want to quote.\n\u0026gt; **Fusion Drive** combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.  Renders to:\n Fusion Drive combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.\n and this HTML:\n\u0026lt;blockquote\u0026gt; \u0026lt;p\u0026gt;\u0026lt;strong\u0026gt;Fusion Drive\u0026lt;/strong\u0026gt; combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.\u0026lt;/p\u0026gt; \u0026lt;/blockquote\u0026gt;  Blockquotes can also be nested:\n\u0026gt; Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. \u0026gt; \u0026gt; \u0026gt; Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam. \u0026gt; \u0026gt; Mauris sit amet ligula egestas, feugiat metus tincidunt, luctus libero. Donec congue finibus tempor. Vestibulum aliquet sollicitudin erat, ut aliquet purus posuere luctus.  Renders to:\n Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.\n Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.\n Mauris sit amet ligula egestas, feugiat metus tincidunt, luctus libero. Donec congue finibus tempor. Vestibulum aliquet sollicitudin erat, ut aliquet purus posuere luctus.\n Lists Unordered A list of items in which the order of the items does not explicitly matter.\nYou may use any of the following symbols to denote bullets for each list item:\n* valid bullet - valid bullet + valid bullet  For example\n+ Lorem ipsum dolor sit amet + Consectetur adipiscing elit + Integer molestie lorem at massa + Facilisis in pretium nisl aliquet + Nulla volutpat aliquam velit - Phasellus iaculis neque - Purus sodales ultricies - Vestibulum laoreet porttitor sem - Ac tristique libero volutpat at + Faucibus porta lacus fringilla vel + Aenean sit amet erat nunc + Eget porttitor lorem  Renders to:\n Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa Facilisis in pretium nisl aliquet Nulla volutpat aliquam velit  Phasellus iaculis neque Purus sodales ultricies Vestibulum laoreet porttitor sem Ac tristique libero volutpat at  Faucibus porta lacus fringilla vel Aenean sit amet erat nunc Eget porttitor lorem  And this HTML\n\u0026lt;ul\u0026gt; \u0026lt;li\u0026gt;Lorem ipsum dolor sit amet\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Consectetur adipiscing elit\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Integer molestie lorem at massa\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Facilisis in pretium nisl aliquet\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Nulla volutpat aliquam velit \u0026lt;ul\u0026gt; \u0026lt;li\u0026gt;Phasellus iaculis neque\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Purus sodales ultricies\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Vestibulum laoreet porttitor sem\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Ac tristique libero volutpat at\u0026lt;/li\u0026gt; \u0026lt;/ul\u0026gt; \u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Faucibus porta lacus fringilla vel\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Aenean sit amet erat nunc\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Eget porttitor lorem\u0026lt;/li\u0026gt; \u0026lt;/ul\u0026gt;  Ordered A list of items in which the order of items does explicitly matter.\n1. Lorem ipsum dolor sit amet 2. Consectetur adipiscing elit 3. Integer molestie lorem at massa 4. Facilisis in pretium nisl aliquet 5. Nulla volutpat aliquam velit 6. Faucibus porta lacus fringilla vel 7. Aenean sit amet erat nunc 8. Eget porttitor lorem  Renders to:\n Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa Facilisis in pretium nisl aliquet Nulla volutpat aliquam velit Faucibus porta lacus fringilla vel Aenean sit amet erat nunc Eget porttitor lorem  And this HTML:\n\u0026lt;ol\u0026gt; \u0026lt;li\u0026gt;Lorem ipsum dolor sit amet\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Consectetur adipiscing elit\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Integer molestie lorem at massa\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Facilisis in pretium nisl aliquet\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Nulla volutpat aliquam velit\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Faucibus porta lacus fringilla vel\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Aenean sit amet erat nunc\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;Eget porttitor lorem\u0026lt;/li\u0026gt; \u0026lt;/ol\u0026gt;  TIP: If you just use 1. for each number, Markdown will automatically number each item. For example:\n1. Lorem ipsum dolor sit amet 1. Consectetur adipiscing elit 1. Integer molestie lorem at massa 1. Facilisis in pretium nisl aliquet 1. Nulla volutpat aliquam velit 1. Faucibus porta lacus fringilla vel 1. Aenean sit amet erat nunc 1. Eget porttitor lorem  Renders to:\n Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa Facilisis in pretium nisl aliquet Nulla volutpat aliquam velit Faucibus porta lacus fringilla vel Aenean sit amet erat nunc Eget porttitor lorem  Code Inline code Wrap inline snippets of code with `.\nIn this example, `\u0026lt;section\u0026gt;\u0026lt;/section\u0026gt;` should be wrapped as **code**.  Renders to:\nIn this example, \u0026lt;section\u0026gt;\u0026lt;/section\u0026gt; should be wrapped with code.\nHTML:\n\u0026lt;p\u0026gt;In this example, \u0026lt;code\u0026gt;\u0026amp;lt;section\u0026amp;gt;\u0026amp;lt;/section\u0026amp;gt;\u0026lt;/code\u0026gt; should be wrapped with \u0026lt;strong\u0026gt;code\u0026lt;/strong\u0026gt;.\u0026lt;/p\u0026gt;  Indented code Or indent several lines of code by at least four spaces, as in:\n // Some comments line 1 of code line 2 of code line 3 of code  Renders to:\n// Some comments line 1 of code line 2 of code line 3 of code  HTML:\n\u0026lt;pre\u0026gt; \u0026lt;code\u0026gt; // Some comments line 1 of code line 2 of code line 3 of code \u0026lt;/code\u0026gt; \u0026lt;/pre\u0026gt;  Block code \u0026ldquo;fences\u0026rdquo; Use \u0026ldquo;fences\u0026rdquo; ``` to block in multiple lines of code.\n ``` markup Sample text here... ```  Sample text here...  HTML:\n\u0026lt;pre\u0026gt; \u0026lt;code\u0026gt;Sample text here...\u0026lt;/code\u0026gt; \u0026lt;/pre\u0026gt;  Syntax highlighting GFM, or \u0026ldquo;GitHub Flavored Markdown\u0026rdquo; also supports syntax highlighting. To activate it, simply add the file extension of the language you want to use directly after the first code \u0026ldquo;fence\u0026rdquo;, `js, and syntax highlighting will automatically be applied in the rendered HTML. For example, to apply syntax highlighting to JavaScript code:\n ```js grunt.initConfig({ assemble: { options: { assets: 'docs/assets', data: 'src/data/*.{json,yml}', helpers: 'src/custom-helpers.js', partials: ['src/partials/**/*.{hbs,md}'] }, pages: { options: { layout: 'default.hbs' }, files: { './': ['src/templates/pages/index.hbs'] } } } }; ```  Renders to:\ngrunt.initConfig({ assemble: { options: { assets: 'docs/assets', data: 'src/data/*.{json,yml}', helpers: 'src/custom-helpers.js', partials: ['src/partials/**/*.{hbs,md}'] }, pages: { options: { layout: 'default.hbs' }, files: { './': ['src/templates/pages/index.hbs'] } } } };  Tables Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.\n| Option | Description | | ------ | ----------- | | data | path to data files to supply the data that will be passed into templates. | | engine | engine to be used for processing templates. Handlebars is the default. | | ext | extension to be used for dest files. |  Renders to:\n   Option Description     data path to data files to supply the data that will be passed into templates.   engine engine to be used for processing templates. Handlebars is the default.   ext extension to be used for dest files.    And this HTML:\n\u0026lt;table\u0026gt; \u0026lt;tr\u0026gt; \u0026lt;th\u0026gt;Option\u0026lt;/th\u0026gt; \u0026lt;th\u0026gt;Description\u0026lt;/th\u0026gt; \u0026lt;/tr\u0026gt; \u0026lt;tr\u0026gt; \u0026lt;td\u0026gt;data\u0026lt;/td\u0026gt; \u0026lt;td\u0026gt;path to data files to supply the data that will be passed into templates.\u0026lt;/td\u0026gt; \u0026lt;/tr\u0026gt; \u0026lt;tr\u0026gt; \u0026lt;td\u0026gt;engine\u0026lt;/td\u0026gt; \u0026lt;td\u0026gt;engine to be used for processing templates. Handlebars is the default.\u0026lt;/td\u0026gt; \u0026lt;/tr\u0026gt; \u0026lt;tr\u0026gt; \u0026lt;td\u0026gt;ext\u0026lt;/td\u0026gt; \u0026lt;td\u0026gt;extension to be used for dest files.\u0026lt;/td\u0026gt; \u0026lt;/tr\u0026gt; \u0026lt;/table\u0026gt;  Right aligned text Adding a colon on the right side of the dashes below any heading will right align text for that column.\n| Option | Description | | ------:| -----------:| | data | path to data files to supply the data that will be passed into templates. | | engine | engine to be used for processing templates. Handlebars is the default. | | ext | extension to be used for dest files. |     Option Description     data path to data files to supply the data that will be passed into templates.   engine engine to be used for processing templates. Handlebars is the default.   ext extension to be used for dest files.    Links Basic link [Assemble](http://assemble.io)  Renders to (hover over the link, there is no tooltip):\nAssemble\nHTML:\n\u0026lt;a href=\u0026quot;http://assemble.io\u0026quot;\u0026gt;Assemble\u0026lt;/a\u0026gt;  Add a title [Upstage](https://github.com/upstage/ \u0026quot;Visit Upstage!\u0026quot;)  Renders to (hover over the link, there should be a tooltip):\nUpstage\nHTML:\n\u0026lt;a href=\u0026quot;https://github.com/upstage/\u0026quot; title=\u0026quot;Visit Upstage!\u0026quot;\u0026gt;Upstage\u0026lt;/a\u0026gt;  Named Anchors Named anchors enable you to jump to the specified anchor point on the same page. For example, each of these chapters:\n# Table of Contents * [Chapter 1](#chapter-1) * [Chapter 2](#chapter-2) * [Chapter 3](#chapter-3)  will jump to these sections:\n## Chapter 1 \u0026lt;a id=\u0026quot;chapter-1\u0026quot;\u0026gt;\u0026lt;/a\u0026gt; Content for chapter one. ## Chapter 2 \u0026lt;a id=\u0026quot;chapter-2\u0026quot;\u0026gt;\u0026lt;/a\u0026gt; Content for chapter one. ## Chapter 3 \u0026lt;a id=\u0026quot;chapter-3\u0026quot;\u0026gt;\u0026lt;/a\u0026gt; Content for chapter one.  NOTE that specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.\nImages Images have a similar syntax to links but include a preceding exclamation point.\n![Minion](https://octodex.github.com/images/minion.png)  or\n![Alt text](https://octodex.github.com/images/stormtroopocat.jpg \u0026quot;The Stormtroopocat\u0026quot;)  Like links, Images also have a footnote style syntax\nAlternative usage : note images ![Alt text][id]  With a reference later in the document defining the URL location:\n[id]: https://octodex.github.com/images/dojocat.jpg \u0026quot;The Dojocat\u0026quot;  Resizing image Add HTTP parameters width and/or height to the link image to resize the image. Values are CSS values (default is auto).\n![Minion](https://octodex.github.com/images/minion.png?width=20pc)  ![Minion](https://octodex.github.com/images/minion.png?height=50px)  ![Minion](https://octodex.github.com/images/minion.png?height=50px\u0026amp;width=300px)  Add CSS classes Add a HTTP classes parameter to the link image to add CSS classes. shadowand border are available but you could define other ones.\n![stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg?classes=shadow)  ![stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg?classes=border)  ![stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg?classes=border,shadow)  "
 },
 {
-	"uri": "http://example.org/syntax/",
+	"uri": "http://davesvatora.github.io/syntax/",
 	"title": "Markdown Syntax",
 	"tags": [],
 	"description": "Disclaimers to help you structure your page",
 	"content": " Markdown Markdown is the primary document type for hugo. Markdown syntax is a mechanism for helping to display content. When the site is generated the markdown syntax is used to transform it to html.\nSee markdown examples Shortcodes Shortcodes are a special syntax to help display predefined content types. Below are examples I found useful for this theme. You can read more about shortcodes in the hugo documentation or in the theme documentation\nSee shortcodes examples "
 },
 {
-	"uri": "http://example.org/tags/apt/",
+	"uri": "http://davesvatora.github.io/tags/apt/",
 	"title": "apt",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/docker/",
+	"uri": "http://davesvatora.github.io/tags/docker/",
 	"title": "docker",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/gradle/",
+	"uri": "http://davesvatora.github.io/tags/gradle/",
 	"title": "gradle",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/nodejs/",
+	"uri": "http://davesvatora.github.io/tags/nodejs/",
 	"title": "nodejs",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/pop_os/",
+	"uri": "http://davesvatora.github.io/tags/pop_os/",
 	"title": "pop_!os",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/spotify/",
+	"uri": "http://davesvatora.github.io/tags/spotify/",
 	"title": "spotify",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/about/",
+	"uri": "http://davesvatora.github.io/tags/about/",
 	"title": "about",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/bio/",
+	"uri": "http://davesvatora.github.io/tags/bio/",
 	"title": "bio",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/simplicity/",
+	"uri": "http://davesvatora.github.io/tags/simplicity/",
 	"title": "simplicity",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/categories/",
+	"uri": "http://davesvatora.github.io/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/syntax/shortcodes/",
+	"uri": "http://davesvatora.github.io/syntax/shortcodes/",
 	"title": "Shortcodes Examples",
 	"tags": [],
 	"description": "Disclaimers to help you structure your page",

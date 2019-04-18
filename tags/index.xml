@@ -2,138 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dave Svatora</title>
-    <link>http://example.org/tags/</link>
+    <link>http://davesvatora.github.io/tags/</link>
     <description>Recent content in Tags on Dave Svatora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2019 13:09:08 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://davesvatora.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ryzen</title>
-      <link>http://example.org/tags/ryzen/</link>
+      <link>http://davesvatora.github.io/tags/ryzen/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://example.org/tags/ryzen/</guid>
+      <guid>http://davesvatora.github.io/tags/ryzen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>custom</title>
-      <link>http://example.org/tags/custom/</link>
+      <link>http://davesvatora.github.io/tags/custom/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://example.org/tags/custom/</guid>
+      <guid>http://davesvatora.github.io/tags/custom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dualboot</title>
-      <link>http://example.org/tags/dualboot/</link>
+      <link>http://davesvatora.github.io/tags/dualboot/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://example.org/tags/dualboot/</guid>
+      <guid>http://davesvatora.github.io/tags/dualboot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>itx</title>
-      <link>http://example.org/tags/itx/</link>
+      <link>http://davesvatora.github.io/tags/itx/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://example.org/tags/itx/</guid>
+      <guid>http://davesvatora.github.io/tags/itx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>http://example.org/tags/linux/</link>
+      <link>http://davesvatora.github.io/tags/linux/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://example.org/tags/linux/</guid>
+      <guid>http://davesvatora.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apt</title>
-      <link>http://example.org/tags/apt/</link>
+      <link>http://davesvatora.github.io/tags/apt/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://example.org/tags/apt/</guid>
+      <guid>http://davesvatora.github.io/tags/apt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>http://example.org/tags/docker/</link>
+      <link>http://davesvatora.github.io/tags/docker/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://example.org/tags/docker/</guid>
+      <guid>http://davesvatora.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gradle</title>
-      <link>http://example.org/tags/gradle/</link>
+      <link>http://davesvatora.github.io/tags/gradle/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://example.org/tags/gradle/</guid>
+      <guid>http://davesvatora.github.io/tags/gradle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nodejs</title>
-      <link>http://example.org/tags/nodejs/</link>
+      <link>http://davesvatora.github.io/tags/nodejs/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://example.org/tags/nodejs/</guid>
+      <guid>http://davesvatora.github.io/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pop_!os</title>
-      <link>http://example.org/tags/pop_os/</link>
+      <link>http://davesvatora.github.io/tags/pop_os/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://example.org/tags/pop_os/</guid>
+      <guid>http://davesvatora.github.io/tags/pop_os/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spotify</title>
-      <link>http://example.org/tags/spotify/</link>
+      <link>http://davesvatora.github.io/tags/spotify/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://example.org/tags/spotify/</guid>
+      <guid>http://davesvatora.github.io/tags/spotify/</guid>
       <description></description>
     </item>
     
     <item>
       <title>about</title>
-      <link>http://example.org/tags/about/</link>
+      <link>http://davesvatora.github.io/tags/about/</link>
       <pubDate>Sat, 06 Apr 2019 13:04:51 -0500</pubDate>
       
-      <guid>http://example.org/tags/about/</guid>
+      <guid>http://davesvatora.github.io/tags/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bio</title>
-      <link>http://example.org/tags/bio/</link>
+      <link>http://davesvatora.github.io/tags/bio/</link>
       <pubDate>Sat, 06 Apr 2019 13:04:51 -0500</pubDate>
       
-      <guid>http://example.org/tags/bio/</guid>
+      <guid>http://davesvatora.github.io/tags/bio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>simplicity</title>
-      <link>http://example.org/tags/simplicity/</link>
+      <link>http://davesvatora.github.io/tags/simplicity/</link>
       <pubDate>Sat, 06 Apr 2019 13:04:51 -0500</pubDate>
       
-      <guid>http://example.org/tags/simplicity/</guid>
+      <guid>http://davesvatora.github.io/tags/simplicity/</guid>
       <description></description>
     </item>
     

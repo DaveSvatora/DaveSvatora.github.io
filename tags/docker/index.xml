@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docker on Dave Svatora</title>
-    <link>http://example.org/tags/docker/</link>
+    <link>http://davesvatora.github.io/tags/docker/</link>
     <description>Recent content in docker on Dave Svatora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2019 13:08:27 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://davesvatora.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LinuxSoftware</title>
-      <link>http://example.org/computers_and_stuff/linux_software/</link>
+      <link>http://davesvatora.github.io/computers_and_stuff/linux_software/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://example.org/computers_and_stuff/linux_software/</guid>
+      <guid>http://davesvatora.github.io/computers_and_stuff/linux_software/</guid>
       <description>Pop!_OS has a built in software distribution gui called the Pop!_Shop. In this guide we&amp;rsquo;ll start off by installing some common software one might use on a linux machine for general use. Like most built in software management gui&amp;rsquo;s on Linux there is some software available, but its hit or miss. After the easy installs we&amp;rsquo;ll add in more using apt.
 Lets start off with easy installs from the Pop!</description>
     </item>

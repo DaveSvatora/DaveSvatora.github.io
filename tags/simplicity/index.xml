@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>simplicity on Dave Svatora</title>
-    <link>http://example.org/tags/simplicity/</link>
+    <link>http://davesvatora.github.io/tags/simplicity/</link>
     <description>Recent content in simplicity on Dave Svatora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2019 13:04:51 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/simplicity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://davesvatora.github.io/tags/simplicity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About Me</title>
-      <link>http://example.org/about_me/</link>
+      <link>http://davesvatora.github.io/about_me/</link>
       <pubDate>Sat, 06 Apr 2019 13:04:51 -0500</pubDate>
       
-      <guid>http://example.org/about_me/</guid>
+      <guid>http://davesvatora.github.io/about_me/</guid>
       <description>&amp;ldquo;Hello Devs&amp;rdquo;  Career I&amp;rsquo;ve been a software developer since 2003 (16 years at the time of creating this site). Currently I work for a very large Fortune 50 company. During the course of that time I&amp;rsquo;ve been fortunate to gain a lot of experience in quite a few technologies.
 Lately I&amp;rsquo;ve been doing some Java Spring Boot API&amp;rsquo;s for some of our internal backend software. Prior to that I was working in a research area and got to build proof of concept ideas that showcased newer software, databases and cloud functionality.</description>
     </item>
