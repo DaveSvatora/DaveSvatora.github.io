@@ -30,9 +30,14 @@ h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading HTML:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://davesvatora.github.io/syntax/shortcodes/</guid>
-      <description>Expand {{%expand &amp;quot;Is this learn theme rocks ?&amp;quot; %}}Yes !.{{% /expand%}}  renders as
-  Is this learn theme rocks ?   Yes !.   Mermaid {{&amp;lt;mermaid align=&amp;quot;left&amp;quot;&amp;gt;}} graph LR; A[Hard edge] --&amp;gt;|Link text| B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two] {{&amp;lt; /mermaid &amp;gt;}}  renders as
-graph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  Instagram {{&amp;lt; instagram BWNjjyYFxVx hidecaption &amp;gt;}}  renders as</description>
+      <description>The notice shortcode shows 4 types of disclaimers to help you structure your page.
+Note {{% notice note %}} A notice disclaimer {{% /notice %}}  renders as
+A notice disclaimer
+ Info {{% notice info %}} An information disclaimer {{% /notice %}}  renders as
+An information disclaimer
+ Tip {{% notice tip %}} A tip disclaimer {{% /notice %}}  renders as
+A tip disclaimer
+ Warning {{% notice warning %}} An warning disclaimer {{% /notice %}}  renders as</description>
     </item>
     
   </channel>
