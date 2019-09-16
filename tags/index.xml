@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Dave Svatora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jul 2019 17:52:09 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2019 21:49:56 -0500</lastBuildDate>
     
 	<atom:link href="https://davesvatora.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>linux</title>
+      <link>https://davesvatora.github.io/tags/linux/</link>
+      <pubDate>Sun, 15 Sep 2019 21:49:56 -0500</pubDate>
+      
+      <guid>https://davesvatora.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pi</title>
+      <link>https://davesvatora.github.io/tags/pi/</link>
+      <pubDate>Sun, 15 Sep 2019 21:49:56 -0500</pubDate>
+      
+      <guid>https://davesvatora.github.io/tags/pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspbian</title>
+      <link>https://davesvatora.github.io/tags/raspbian/</link>
+      <pubDate>Sun, 15 Sep 2019 21:49:56 -0500</pubDate>
+      
+      <guid>https://davesvatora.github.io/tags/raspbian/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>diet</title>
@@ -80,15 +107,6 @@
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
       <guid>https://davesvatora.github.io/tags/itx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://davesvatora.github.io/tags/linux/</link>
-      <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
-      
-      <guid>https://davesvatora.github.io/tags/linux/</guid>
       <description></description>
     </item>
     

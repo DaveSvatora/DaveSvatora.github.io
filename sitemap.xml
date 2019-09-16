@@ -14,8 +14,33 @@
   
   <url>
     <loc>https://davesvatora.github.io/</loc>
-    <lastmod>2019-07-05T17:52:09-05:00</lastmod>
+    <lastmod>2019-09-15T21:49:56-05:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davesvatora.github.io/tags/linux/</loc>
+    <lastmod>2019-09-15T21:49:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davesvatora.github.io/tags/pi/</loc>
+    <lastmod>2019-09-15T21:49:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davesvatora.github.io/computers_and_stuff/pi4/</loc>
+    <lastmod>2019-09-15T21:49:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davesvatora.github.io/tags/raspbian/</loc>
+    <lastmod>2019-09-15T21:49:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davesvatora.github.io/tags/</loc>
+    <lastmod>2019-09-15T21:49:56-05:00</lastmod>
   </url>
   
   <url>
@@ -44,11 +69,6 @@
   </url>
   
   <url>
-    <loc>https://davesvatora.github.io/tags/</loc>
-    <lastmod>2019-07-05T17:52:09-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://davesvatora.github.io/tags/vegetarian/</loc>
     <lastmod>2019-07-05T17:52:09-05:00</lastmod>
   </url>
@@ -65,11 +85,6 @@
   
   <url>
     <loc>https://davesvatora.github.io/tags/itx/</loc>
-    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/linux/</loc>
     <lastmod>2019-04-06T13:09:08-05:00</lastmod>
   </url>
   

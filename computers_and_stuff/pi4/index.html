@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Categories :: Dave Svatora</title>
+    <title>Pi4 :: Dave Svatora</title>
 
     
     <link href="/css/nucleus.css?1568603037" rel="stylesheet">
@@ -39,7 +39,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/categories/">
+  <body class="" data-url="/computers_and_stuff/pi4/">
     <nav id="sidebar" class="">
 
 
@@ -130,7 +130,7 @@
   
     
     <li data-nav-id="/computers_and_stuff/" title="Computers and Stuff" class="dd-item 
-        
+        parent
         
         
         ">
@@ -154,7 +154,7 @@
  
   
     
-      <li data-nav-id="/computers_and_stuff/pi4/" title="Pi4" class="dd-item ">
+      <li data-nav-id="/computers_and_stuff/pi4/" title="Pi4" class="dd-item active">
         <a href="/computers_and_stuff/pi4/">
         Pi4
         
@@ -317,6 +317,17 @@
               <div>
                 <div id="top-bar">
                 
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='' href="https://github.com/DaveSvatora/documentation/tree/master/content/computers_and_stuff/pi4.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                  </div>
+                  
+                
                 
                 <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <span id="sidebar-toggle-span">
@@ -337,7 +348,13 @@
             
           
           
-            <a href='/'></a> > Categories
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/computers_and_stuff/'>Computers and Stuff</a> > Pi4
+          
+         
           
          
           
@@ -348,7 +365,14 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#choosing-an-os">Choosing an OS</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -358,13 +382,23 @@
             
         <div id="head-tags">
         
+<div class="tags">
+
+  <a class="tag-link" href="/tags/pi">pi</a>
+
+  <a class="tag-link" href="/tags/raspbian">raspbian</a>
+
+  <a class="tag-link" href="/tags/linux">linux</a>
+
+</div>
+
         </div>
         
         <div id="body-inner">
           
             <h1>
               
-              Categories
+              Pi4
             </h1>
           
 
@@ -374,15 +408,17 @@
 
 
 
+<p>I got a <code>Raspberry Pi 4</code> recently to play around with on some home projects. I am going to try to see if its functional as a developer machine as well as run some dockerized apps on it. This post will document my experience and steps to get stuff up and running. Most of the documentation I do is essentially bread crumbs that I can later use to recreate something if I decide to blow it away and start over.</p>
 
-<ul>
-	
-</ul>
+<h2 id="choosing-an-os">Choosing an OS</h2>
+
+<p>My first choice is to pick an OS. There aren&rsquo;t many available <strong>yet</strong> for PI4 so I&rsquo;m starting with the officially supported <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian Buster Lite</a> distro. I&rsquo;m also going to try to install the <code>Mate Desktop GUI</code> on top of Raspbian. <a href="https://www.raspberrypi.org/forums/viewtopic.php?t=133691">This guide</a> talks about the steps you need to take to make it all work together.</p>
 
 
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -450,6 +486,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -462,6 +499,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -478,6 +516,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -566,8 +607,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/computers_and_stuff/" title="Computers and Stuff"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/about_me/" title="About Me" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/computers_and_stuff/mini_itx/" title="Mini ITX" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -597,3 +640,4 @@
 
   </body>
 </html>
+

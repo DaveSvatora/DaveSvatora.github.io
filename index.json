@@ -21,6 +21,41 @@
 	"content": " Welcome to my site  My name is Dave and I\u0026rsquo;m a Senior Full Stack Software Developer. I wanted to explore how Hugo works and at the same time learn the capabilities of this awesome Learn theme. Another reason I created this site to get a little more hands on experience with Github pages.\n Documentation One of the trends I keep seeing and promoting is the use of static generated sites for storing documentation. Hugo is the second one of these I\u0026rsquo;ve been using and am a big fan already. The other, which I like just as much, is Material for MkDocs.\nBoth of these static site generators are very easy to set up, configure and customize. The biggest benefit/trend I see is utilizing Markdown as the primary file type to document software. Some other benefits include search capabilities, automatic table of contents, ease and speed of deployment, and much much better consumability for developers\n"
 },
 {
+	"uri": "https://davesvatora.github.io/tags/linux/",
+	"title": "linux",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://davesvatora.github.io/tags/pi/",
+	"title": "pi",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://davesvatora.github.io/computers_and_stuff/pi4/",
+	"title": "Pi4",
+	"tags": ["pi", "raspbian", "linux"],
+	"description": "",
+	"content": " I got a Raspberry Pi 4 recently to play around with on some home projects. I am going to try to see if its functional as a developer machine as well as run some dockerized apps on it. This post will document my experience and steps to get stuff up and running. Most of the documentation I do is essentially bread crumbs that I can later use to recreate something if I decide to blow it away and start over.\nChoosing an OS My first choice is to pick an OS. There aren\u0026rsquo;t many available yet for PI4 so I\u0026rsquo;m starting with the officially supported Raspbian Buster Lite distro. I\u0026rsquo;m also going to try to install the Mate Desktop GUI on top of Raspbian. This guide talks about the steps you need to take to make it all work together.\n"
+},
+{
+	"uri": "https://davesvatora.github.io/tags/raspbian/",
+	"title": "raspbian",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://davesvatora.github.io/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "https://davesvatora.github.io/tags/diet/",
 	"title": "diet",
 	"tags": [],
@@ -56,13 +91,6 @@
 	"content": ""
 },
 {
-	"uri": "https://davesvatora.github.io/tags/",
-	"title": "Tags",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "https://davesvatora.github.io/tags/vegetarian/",
 	"title": "vegetarian",
 	"tags": [],
@@ -86,13 +114,6 @@
 {
 	"uri": "https://davesvatora.github.io/tags/itx/",
 	"title": "itx",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://davesvatora.github.io/tags/linux/",
-	"title": "linux",
 	"tags": [],
 	"description": "",
 	"content": ""
