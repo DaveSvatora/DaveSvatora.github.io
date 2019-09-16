@@ -2,33 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>itx on Dave Svatora</title>
-    <link>http://davesvatora.github.io/tags/itx/</link>
+    <link>https://davesvatora.github.io/tags/itx/</link>
     <description>Recent content in itx on Dave Svatora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2019 13:09:08 -0500</lastBuildDate>
     
-	<atom:link href="http://davesvatora.github.io/tags/itx/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://davesvatora.github.io/tags/itx/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Computers and Stuff</title>
-      <link>http://davesvatora.github.io/computers_and_stuff/</link>
-      <pubDate>Sat, 06 Apr 2019 13:04:51 -0500</pubDate>
-      
-      <guid>http://davesvatora.github.io/computers_and_stuff/</guid>
-      <description>My Custom Built Mini ITX In early 2019 I decided to upgrade my mini itx machine to something that would play most current games as well as serve as an awesome developer machine. What started as a cpu only upgrade turned into a one of a kind computer you can&amp;rsquo;t get online or in any store.
-Click the image to find out more
-
-Dualboot Pop!_OS/Windows This is a guide I use to set up a pc once I install a fresh Linux OS.</description>
-    </item>
     
     <item>
       <title>Mini ITX</title>
-      <link>http://davesvatora.github.io/computers_and_stuff/mini_itx/</link>
+      <link>https://davesvatora.github.io/computers_and_stuff/mini_itx/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/computers_and_stuff/mini_itx/</guid>
+      <guid>https://davesvatora.github.io/computers_and_stuff/mini_itx/</guid>
       <description>It started off with just upgrading the i3 processor&amp;hellip;  &amp;hellip;and turned into a bad a$$ custom built machine you can&amp;rsquo;t get anywhere. My first debate was to buy a 3 year old i7 for ~$300 or get a fairly new Ryzen 5 with 6 cores and 12 threads for half the cost. I&amp;rsquo;ve been an AMD fan for years but didn&amp;rsquo;t have good experiences with bulldozer or the Ryzen 5 2400G (Didn&amp;rsquo;t play well with Linux).</description>
     </item>
     

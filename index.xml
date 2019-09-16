@@ -2,40 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dave Svatora</title>
-    <link>http://davesvatora.github.io/</link>
+    <link>https://davesvatora.github.io/</link>
     <description>Recent content on Dave Svatora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Apr 2019 13:09:08 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2019 17:52:09 -0500</lastBuildDate>
     
-	<atom:link href="http://davesvatora.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://davesvatora.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Nutrition</title>
+      <link>https://davesvatora.github.io/about_me/nutrition/</link>
+      <pubDate>Fri, 05 Jul 2019 17:52:09 -0500</pubDate>
+      
+      <guid>https://davesvatora.github.io/about_me/nutrition/</guid>
+      <description>Over the last 3-4 years I&amp;rsquo;ve become more and more interested in nutrition and diet. My wakeup call was having blood analysis tests done and not having the best results. Up to that point in my life I never really cared that much about calories, salt, sugar or much of any type of food intake considerations. I would say my diet at the time was typical American and consisted of meats, cheese, chips, bread, and way too much sugar and salt.</description>
+    </item>
+    
+    <item>
       <title>Mini ITX</title>
-      <link>http://davesvatora.github.io/computers_and_stuff/mini_itx/</link>
+      <link>https://davesvatora.github.io/computers_and_stuff/mini_itx/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/computers_and_stuff/mini_itx/</guid>
+      <guid>https://davesvatora.github.io/computers_and_stuff/mini_itx/</guid>
       <description>It started off with just upgrading the i3 processor&amp;hellip;  &amp;hellip;and turned into a bad a$$ custom built machine you can&amp;rsquo;t get anywhere. My first debate was to buy a 3 year old i7 for ~$300 or get a fairly new Ryzen 5 with 6 cores and 12 threads for half the cost. I&amp;rsquo;ve been an AMD fan for years but didn&amp;rsquo;t have good experiences with bulldozer or the Ryzen 5 2400G (Didn&amp;rsquo;t play well with Linux).</description>
     </item>
     
     <item>
       <title>LinuxSoftware</title>
-      <link>http://davesvatora.github.io/computers_and_stuff/linux_software/</link>
+      <link>https://davesvatora.github.io/computers_and_stuff/linux_software/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/computers_and_stuff/linux_software/</guid>
+      <guid>https://davesvatora.github.io/computers_and_stuff/linux_software/</guid>
       <description>Pop!_OS has a built in software distribution gui called the Pop!_Shop. In this guide we&amp;rsquo;ll start off by installing some common software one might use on a linux machine for general use. Like most built in software management gui&amp;rsquo;s on Linux there is some software available, but its hit or miss. After the easy installs we&amp;rsquo;ll add in more using apt.
 Lets start off with easy installs from the Pop!</description>
     </item>
     
     <item>
       <title>Markdown Cheatsheet</title>
-      <link>http://davesvatora.github.io/syntax/markdown/</link>
+      <link>https://davesvatora.github.io/syntax/markdown/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/syntax/markdown/</guid>
+      <guid>https://davesvatora.github.io/syntax/markdown/</guid>
       <description>Headings Headings from h1 through h6 are constructed with a # for each level:
 # h1 Heading ## h2 Heading ### h3 Heading #### h4 Heading ##### h5 Heading ###### h6 Heading  Renders to:
 h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading HTML:
@@ -45,10 +54,10 @@ h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading HTML:
     
     <item>
       <title>Shortcodes Examples</title>
-      <link>http://davesvatora.github.io/syntax/shortcodes/</link>
+      <link>https://davesvatora.github.io/syntax/shortcodes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://davesvatora.github.io/syntax/shortcodes/</guid>
+      <guid>https://davesvatora.github.io/syntax/shortcodes/</guid>
       <description>Expand {{%expand &amp;quot;Is this learn theme rocks ?&amp;quot; %}}Yes !.{{% /expand%}}  renders as
   Is this learn theme rocks ?   Yes !.   Mermaid {{&amp;lt;mermaid align=&amp;quot;left&amp;quot;&amp;gt;}} graph LR; A[Hard edge] --&amp;gt;|Link text| B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two] {{&amp;lt; /mermaid &amp;gt;}}  renders as
 graph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  Instagram {{&amp;lt; instagram BWNjjyYFxVx hidecaption &amp;gt;}}  renders as</description>

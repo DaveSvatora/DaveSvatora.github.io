@@ -2,138 +2,156 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dave Svatora</title>
-    <link>http://davesvatora.github.io/tags/</link>
+    <link>https://davesvatora.github.io/tags/</link>
     <description>Recent content in Tags on Dave Svatora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Apr 2019 13:09:08 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2019 17:52:09 -0500</lastBuildDate>
     
-	<atom:link href="http://davesvatora.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://davesvatora.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ryzen</title>
-      <link>http://davesvatora.github.io/tags/ryzen/</link>
-      <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
+      <title>diet</title>
+      <link>https://davesvatora.github.io/tags/diet/</link>
+      <pubDate>Fri, 05 Jul 2019 17:52:09 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/ryzen/</guid>
+      <guid>https://davesvatora.github.io/tags/diet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>health</title>
+      <link>https://davesvatora.github.io/tags/health/</link>
+      <pubDate>Fri, 05 Jul 2019 17:52:09 -0500</pubDate>
+      
+      <guid>https://davesvatora.github.io/tags/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intermittent fasting</title>
+      <link>https://davesvatora.github.io/tags/intermittent-fasting/</link>
+      <pubDate>Fri, 05 Jul 2019 17:52:09 -0500</pubDate>
+      
+      <guid>https://davesvatora.github.io/tags/intermittent-fasting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nutrition</title>
+      <link>https://davesvatora.github.io/tags/nutrition/</link>
+      <pubDate>Fri, 05 Jul 2019 17:52:09 -0500</pubDate>
+      
+      <guid>https://davesvatora.github.io/tags/nutrition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegetarian</title>
+      <link>https://davesvatora.github.io/tags/vegetarian/</link>
+      <pubDate>Fri, 05 Jul 2019 17:52:09 -0500</pubDate>
+      
+      <guid>https://davesvatora.github.io/tags/vegetarian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>custom</title>
-      <link>http://davesvatora.github.io/tags/custom/</link>
+      <link>https://davesvatora.github.io/tags/custom/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/custom/</guid>
+      <guid>https://davesvatora.github.io/tags/custom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dualboot</title>
-      <link>http://davesvatora.github.io/tags/dualboot/</link>
+      <link>https://davesvatora.github.io/tags/dualboot/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/dualboot/</guid>
+      <guid>https://davesvatora.github.io/tags/dualboot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>itx</title>
-      <link>http://davesvatora.github.io/tags/itx/</link>
+      <link>https://davesvatora.github.io/tags/itx/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/itx/</guid>
+      <guid>https://davesvatora.github.io/tags/itx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>http://davesvatora.github.io/tags/linux/</link>
+      <link>https://davesvatora.github.io/tags/linux/</link>
       <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/linux/</guid>
+      <guid>https://davesvatora.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ryzen</title>
+      <link>https://davesvatora.github.io/tags/ryzen/</link>
+      <pubDate>Sat, 06 Apr 2019 13:09:08 -0500</pubDate>
+      
+      <guid>https://davesvatora.github.io/tags/ryzen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apt</title>
-      <link>http://davesvatora.github.io/tags/apt/</link>
+      <link>https://davesvatora.github.io/tags/apt/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/apt/</guid>
+      <guid>https://davesvatora.github.io/tags/apt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>http://davesvatora.github.io/tags/docker/</link>
+      <link>https://davesvatora.github.io/tags/docker/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/docker/</guid>
+      <guid>https://davesvatora.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gradle</title>
-      <link>http://davesvatora.github.io/tags/gradle/</link>
+      <link>https://davesvatora.github.io/tags/gradle/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/gradle/</guid>
+      <guid>https://davesvatora.github.io/tags/gradle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nodejs</title>
-      <link>http://davesvatora.github.io/tags/nodejs/</link>
+      <link>https://davesvatora.github.io/tags/nodejs/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/nodejs/</guid>
+      <guid>https://davesvatora.github.io/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pop_!os</title>
-      <link>http://davesvatora.github.io/tags/pop_os/</link>
+      <link>https://davesvatora.github.io/tags/pop_os/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/pop_os/</guid>
+      <guid>https://davesvatora.github.io/tags/pop_os/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spotify</title>
-      <link>http://davesvatora.github.io/tags/spotify/</link>
+      <link>https://davesvatora.github.io/tags/spotify/</link>
       <pubDate>Sat, 06 Apr 2019 13:08:27 -0500</pubDate>
       
-      <guid>http://davesvatora.github.io/tags/spotify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://davesvatora.github.io/tags/about/</link>
-      <pubDate>Sat, 06 Apr 2019 13:04:51 -0500</pubDate>
-      
-      <guid>http://davesvatora.github.io/tags/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bio</title>
-      <link>http://davesvatora.github.io/tags/bio/</link>
-      <pubDate>Sat, 06 Apr 2019 13:04:51 -0500</pubDate>
-      
-      <guid>http://davesvatora.github.io/tags/bio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>simplicity</title>
-      <link>http://davesvatora.github.io/tags/simplicity/</link>
-      <pubDate>Sat, 06 Apr 2019 13:04:51 -0500</pubDate>
-      
-      <guid>http://davesvatora.github.io/tags/simplicity/</guid>
+      <guid>https://davesvatora.github.io/tags/spotify/</guid>
       <description></description>
     </item>
     
