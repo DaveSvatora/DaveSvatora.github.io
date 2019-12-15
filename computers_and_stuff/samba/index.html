@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.61.0" />
-    <meta name="description" content="Disclaimers to help you structure your page">
+    <meta name="description" content="">
 
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Markdown Syntax :: Dave Svatora</title>
+    <title>Samba :: Dave Svatora</title>
 
     
     <link href="/css/nucleus.css?1576427807" rel="stylesheet">
@@ -39,7 +39,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/syntax/">
+  <body class="" data-url="/computers_and_stuff/samba/">
     <nav id="sidebar" class="">
 
 
@@ -130,7 +130,7 @@
   
     
     <li data-nav-id="/computers_and_stuff/" title="Computers and Stuff" class="dd-item 
-        
+        parent
         
         
         ">
@@ -154,7 +154,7 @@
  
   
     
-      <li data-nav-id="/computers_and_stuff/samba/" title="Samba" class="dd-item ">
+      <li data-nav-id="/computers_and_stuff/samba/" title="Samba" class="dd-item active">
         <a href="/computers_and_stuff/samba/">
         Samba
         
@@ -238,8 +238,8 @@
   
     
     <li data-nav-id="/syntax/" title="Markdown Syntax" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/syntax/">
@@ -340,7 +340,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='' href="https://github.com/DaveSvatora/documentation/tree/master/content/syntax/_index.md" target="blank">
+                    <a class="github-link" title='' href="https://github.com/DaveSvatora/documentation/tree/master/content/computers_and_stuff/samba.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text"></span>
                     </a>
@@ -367,7 +367,13 @@
             
           
           
-            <a href='/'></a> > Markdown Syntax
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/computers_and_stuff/'>Computers and Stuff</a> > Samba
+          
+         
           
          
           
@@ -380,14 +386,12 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#markdown">Markdown</a>
+    <li>
       <ul>
-        <li><a href="#see-markdown-examplessyntaxmarkdown">See markdown examples</a></li>
-      </ul>
-    </li>
-    <li><a href="#shortcodes">Shortcodes</a>
-      <ul>
-        <li><a href="#see-shortcodes-examplessyntaxshortcodes">See shortcodes examples</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#users-and-groups">Users and Groups</a></li>
+        <li><a href="#set-up-and-configure-samba">Set up and configure Samba</a></li>
+        <li><a href="#connect-from-another-device">Connect from another device</a></li>
       </ul>
     </li>
   </ul>
@@ -401,13 +405,23 @@
             
         <div id="head-tags">
         
+<div class="tags">
+
+  <a class="tag-link" href="/tags/samba">samba</a>
+
+  <a class="tag-link" href="/tags/network">network</a>
+
+  <a class="tag-link" href="/tags/file-share">file share</a>
+
+</div>
+
         </div>
         
         <div id="body-inner">
           
             <h1>
               
-              Markdown Syntax
+              Samba
             </h1>
           
 
@@ -415,22 +429,60 @@
 
 
 
+<p>I want to create shared folder that I can access from any device on my local network so I decided to try out <a href="">Samba</a> to get some experience. I'm mainly using this <a href="https://www.fosslinux.com/8703/how-to-setup-samba-file-sharing-server-on-ubuntu.htm">guide</a>, but my notes will be a scaled down version. Ubuntu also has a great tutorial <a href="https://tutorials.ubuntu.com/tutorial/install-and-configure-samba#0">here</a></p>
+<h3 id="installation">Installation</h3>
+<pre><code>sudo apt install samba
+</code></pre><p>Verify Installation with: <code>whereis samba</code></p>
+<h3 id="users-and-groups">Users and Groups</h3>
+<p>We want to create a samba user and group and add our user to the group.</p>
 
-	<h2 id="markdown">Markdown</h2>
-<p>Markdown is the primary document type for hugo. Markdown syntax is a mechanism for helping to display content. When the site is generated the markdown syntax is used to transform it to html.</p>
-<h3 id="see-markdown-examplessyntaxmarkdown"><a href="/syntax/markdown">See markdown examples</a></h3>
-<hr>
-<h2 id="shortcodes">Shortcodes</h2>
-<p>Shortcodes are a special syntax to help display predefined content types. Below are examples I found useful for this theme. You can read more about shortcodes in the <a href="https://gohugo.io/content-management/shortcodes/">hugo documentation</a> or in the <a href="https://learn.netlify.com/en/shortcodes/">theme documentation</a></p>
-<h3 id="see-shortcodes-examplessyntaxshortcodes"><a href="/syntax/shortcodes">See shortcodes examples</a></h3>
+<div class="notices note" ><p>You can use the existing Ubuntu user as well. If you do not want to add a new user skip to the <strong>Create Group</strong> step</p>
+</div>
 
+<h4 id="create-user">Create User</h4>
+<p>adduser will create the new user and prompt for a password</p>
+<pre><code>sudo adduser smbuser
+</code></pre><h4 id="create-group">Create Group</h4>
+<pre><code>sudo addgroup smbgroup
+</code></pre><p>Add our user to the group</p>
+<pre><code>sudo usermod -aG smbgroup smbuser
+</code></pre><p>Set the samba password. <em>Note this will be the password used when connecting from a remote device</em></p>
+<pre><code>sudo smbpasswd -a smbuser
+</code></pre><h3 id="set-up-and-configure-samba">Set up and configure Samba</h3>
+<p>Next we will create the directory we want to share on our network and configure Samba to serve it.</p>
+<h4 id="directory">Directory</h4>
+<pre><code>sudo mkdir -p /home/smbuser/samba/share/
+</code></pre><p>Set up the permissions</p>
+<pre><code>sudo chown -R root:smbgroup /home/smbuser/samba/share
+sudo chmod -R 0770 /home/smbuser/samba/share
+</code></pre><h4 id="configure-samba">Configure Samba</h4>
+<p>Last but not least we need to configure Samba to share our directory we just created. There are lots of configurations available, but in this case we are just going to simplify the file.</p>
+<pre><code>sudo nano /etc/samba/samba.conf
+</code></pre><p>Replace the contents with this</p>
+<pre><code>[global]
+workgroup = WORKGROUP
+server string = Samba Server %v
+netbios name = &lt;name of your machine&gt;
+security = user
 
-
+[share]
+path = /home/smbuser/samba/share
+valid users = @smbgroup
+guest ok = no
+writable = yes
+browsable = yes
+</code></pre><p>Restart Samba</p>
+<pre><code>sudo service smbd restart
+</code></pre><p>Check the config</p>
+<pre><code>testparm
+</code></pre><h3 id="connect-from-another-device">Connect from another device</h3>
+<p>At this point you should now be sharing a folder on your LAN. There are lots of ways to connect, the easiest is to use network discovery on the OS you are running. Another option is to manually type in the IP address. When prompted you will need to enter your user and password we created earlier.</p>
 
 
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -498,6 +550,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -510,6 +563,26 @@
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -554,22 +627,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -578,7 +635,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -591,9 +647,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -634,10 +687,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/computers_and_stuff/linux_software/" title="LinuxSoftware"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/computers_and_stuff/" title="Computers and Stuff"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/syntax/markdown/" title="Markdown Cheatsheet" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/computers_and_stuff/pi4/" title="Pi4" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -667,3 +720,4 @@
 
   </body>
 </html>
+
