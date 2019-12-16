@@ -19,7 +19,7 @@
       <guid>https://davesvatora.github.io/computers_and_stuff/samba/</guid>
       <description>I want to create shared folder that I can access from any device on my local network so I decided to try out Samba to get some experience. I&#39;m mainly using this guide, but my notes will be a scaled down version. Ubuntu also has a great tutorial here
 Installation sudo apt install samba Verify Installation with: whereis samba
-Users and Groups We want to create a samba user and group and add our user to the group.</description>
+ Users and Groups We want to create a samba user and group and add our user to the group.</description>
     </item>
     
     <item>

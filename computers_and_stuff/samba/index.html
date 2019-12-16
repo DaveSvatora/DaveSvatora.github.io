@@ -12,20 +12,20 @@
     <title>Samba :: Dave Svatora</title>
 
     
-    <link href="/css/nucleus.css?1576427807" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1576427807" rel="stylesheet">
-    <link href="/css/hybrid.css?1576427807" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1576427807" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1576427807" rel="stylesheet">
-    <link href="/css/auto-complete.css?1576427807" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1576427807" rel="stylesheet">
-    <link href="/css/theme.css?1576427807" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1576427807" rel="stylesheet">
+    <link href="/css/nucleus.css?1576459237" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1576459237" rel="stylesheet">
+    <link href="/css/hybrid.css?1576459237" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1576459237" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1576459237" rel="stylesheet">
+    <link href="/css/auto-complete.css?1576459237" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1576459237" rel="stylesheet">
+    <link href="/css/theme.css?1576459237" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1576459237" rel="stylesheet">
     
-      <link href="/css/theme-mine.css?1576427807" rel="stylesheet">
+      <link href="/css/theme-mine.css?1576459237" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1576427807"></script>
+    <script src="/js/jquery-3.3.1.min.js?1576459237"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1576427807"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1576427807"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1576459237"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1576459237"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/davesvatora.github.io\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1576427807"></script>
+<script type="text/javascript" src="/js/search.js?1576459237"></script>
 
     
   </div>
@@ -392,6 +392,7 @@
         <li><a href="#users-and-groups">Users and Groups</a></li>
         <li><a href="#set-up-and-configure-samba">Set up and configure Samba</a></li>
         <li><a href="#connect-from-another-device">Connect from another device</a></li>
+        <li><a href="#external-drive">External Drive</a></li>
       </ul>
     </li>
   </ul>
@@ -433,6 +434,7 @@
 <h3 id="installation">Installation</h3>
 <pre><code>sudo apt install samba
 </code></pre><p>Verify Installation with: <code>whereis samba</code></p>
+<hr>
 <h3 id="users-and-groups">Users and Groups</h3>
 <p>We want to create a samba user and group and add our user to the group.</p>
 
@@ -448,7 +450,8 @@
 <pre><code>sudo usermod -aG smbgroup smbuser
 </code></pre><p>Set the samba password. <em>Note this will be the password used when connecting from a remote device</em></p>
 <pre><code>sudo smbpasswd -a smbuser
-</code></pre><h3 id="set-up-and-configure-samba">Set up and configure Samba</h3>
+</code></pre><hr>
+<h3 id="set-up-and-configure-samba">Set up and configure Samba</h3>
 <p>Next we will create the directory we want to share on our network and configure Samba to serve it.</p>
 <h4 id="directory">Directory</h4>
 <pre><code>sudo mkdir -p /home/smbuser/samba/share/
@@ -475,8 +478,23 @@ browsable = yes
 <pre><code>sudo service smbd restart
 </code></pre><p>Check the config</p>
 <pre><code>testparm
-</code></pre><h3 id="connect-from-another-device">Connect from another device</h3>
+</code></pre><hr>
+<h3 id="connect-from-another-device">Connect from another device</h3>
 <p>At this point you should now be sharing a folder on your LAN. There are lots of ways to connect, the easiest is to use network discovery on the OS you are running. Another option is to manually type in the IP address. When prompted you will need to enter your user and password we created earlier.</p>
+<hr>
+<h3 id="external-drive">External Drive</h3>
+<p>I had some issues getting the permissions set up right for an external hard drive. I fought with it over and over trying to get the permissions ot work right with <code>chown</code> and <code>nautilus</code>, but nothing would take. I ended up finding one answer on <a href="https://superuser.com/a/57096">superuser</a> that fixed the mount.</p>
+<h4 id="step-1">Step 1</h4>
+<p>Open <code>Disks</code> and take note of the mount point for me it was <code>/dev/sda1</code> mounted to <code>/media/&lt;user&gt;/&lt;ExternalDrive&gt;</code></p>
+<h4 id="step-2">Step 2</h4>
+<p>Unmount the drive in <code>Disks</code> selecting the external drive and pressing the stop button</p>
+<h4 id="step-3">Step 3</h4>
+<p>Remount the drive using the appropriate permissions</p>
+<pre><code>sudo mount -o uid=root,gid=smbgroup /dev/sda1 /media/&lt;user&gt;/&lt;ExternalDrive&gt;
+</code></pre>
+<div class="notices note" ><p>Replace <code>&lt;user&gt;</code> with your ubuntu user and <code>&lt;ExternalDrive&gt;</code> with the name of your external drive</p>
+</div>
+
 
 
 <footer class=" footline" >
@@ -700,19 +718,19 @@ browsable = yes
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1576427807"></script>
-    <script src="/js/perfect-scrollbar.min.js?1576427807"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1576427807"></script>
-    <script src="/js/jquery.sticky.js?1576427807"></script>
-    <script src="/js/featherlight.min.js?1576427807"></script>
-    <script src="/js/highlight.pack.js?1576427807"></script>
+    <script src="/js/clipboard.min.js?1576459237"></script>
+    <script src="/js/perfect-scrollbar.min.js?1576459237"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1576459237"></script>
+    <script src="/js/jquery.sticky.js?1576459237"></script>
+    <script src="/js/featherlight.min.js?1576459237"></script>
+    <script src="/js/highlight.pack.js?1576459237"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1576427807"></script>
-    <script src="/js/learn.js?1576427807"></script>
-    <script src="/js/hugo-learn.js?1576427807"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1576459237"></script>
+    <script src="/js/learn.js?1576459237"></script>
+    <script src="/js/hugo-learn.js?1576459237"></script>
 
-    <link href="/mermaid/mermaid.css?1576427807" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1576427807"></script>
+    <link href="/mermaid/mermaid.css?1576459237" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1576459237"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
