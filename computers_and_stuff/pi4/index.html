@@ -12,20 +12,20 @@
     <title>Pi4 :: Dave Svatora</title>
 
     
-    <link href="/css/nucleus.css?1576465899" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1576465899" rel="stylesheet">
-    <link href="/css/hybrid.css?1576465899" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1576465899" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1576465899" rel="stylesheet">
-    <link href="/css/auto-complete.css?1576465899" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1576465899" rel="stylesheet">
-    <link href="/css/theme.css?1576465899" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1576465899" rel="stylesheet">
+    <link href="/css/nucleus.css?1576806663" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1576806663" rel="stylesheet">
+    <link href="/css/hybrid.css?1576806663" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1576806663" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1576806663" rel="stylesheet">
+    <link href="/css/auto-complete.css?1576806663" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1576806663" rel="stylesheet">
+    <link href="/css/theme.css?1576806663" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1576806663" rel="stylesheet">
     
-      <link href="/css/theme-mine.css?1576465899" rel="stylesheet">
+      <link href="/css/theme-mine.css?1576806663" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1576465899"></script>
+    <script src="/js/jquery-3.3.1.min.js?1576806663"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1576465899"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1576465899"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1576806663"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1576806663"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/davesvatora.github.io\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1576465899"></script>
+<script type="text/javascript" src="/js/search.js?1576806663"></script>
 
     
   </div>
@@ -389,6 +389,8 @@
     <li><a href="#choosing-an-os">Choosing an OS</a>
       <ul>
         <li><a href="#first-try">First Try</a></li>
+        <li><a href="#manjaro">Manjaro</a></li>
+        <li><a href="#ubuntu">Ubuntu</a></li>
       </ul>
     </li>
   </ul>
@@ -431,7 +433,16 @@
 <p>My first choice is to pick an OS. There aren't many available <strong>yet</strong> for PI4 so I'm starting with the officially supported <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian Buster Lite</a> distro. I'm also going to try to install the <code>Mate Desktop GUI</code> on top of Raspbian. <a href="https://www.raspberrypi.org/forums/viewtopic.php?t=133691">This guide</a> talks about the steps you need to take to make it all work together.</p>
 <h3 id="first-try">First Try</h3>
 <p>I got the PI4 connected, booted up, and all was going well&hellip;then I changed my password. Little did I know that changing the keyboard to US would end up bricking my OS. Because I used <code>special characters</code> in my password I got stuck on the terminal login with no way to get past it&hellip;time to reload the OS&hellip;fail #1</p>
-
+<h3 id="manjaro">Manjaro</h3>
+<p>I tried out manjaro and it was very nice on the PI. I was able to install some software, overclock the cpu and gpu, and try some stuff out. One quirk I found that led me to keep looking was the display resolution. For whatever reason it changed the monitor settings so that there was a border around the entire screen. I couldn't figure out how to get it to change back so I kept looking for other options.</p>
+<h3 id="ubuntu">Ubuntu</h3>
+<p>Ultimately I'm going to try and set up a Ubuntu Server on the PI and use it to run some apps on my network, along with providing a local network share. Going to document the setup steps below.</p>
+<h4 id="installation">Installation</h4>
+<p>Hop on over to Ubuntu's Site to download the latest ISO for <a href="https://ubuntu.com/download/raspberry-pi">Raspberry PI4</a>. Flash the microSD card using <a href="https://www.balena.io/etcher/">Balena Etcher</a>. Once finished pop it into the PI4 and run through the installation, change passwords, etc. Finally install open-ssh.</p>
+<pre><code>sudo apt install openssh-server
+</code></pre><p>I also want to install Wifi functionality so will do that as well</p>
+<pre><code>?
+</code></pre>
 
 <footer class=" footline" >
 	
@@ -657,19 +668,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1576465899"></script>
-    <script src="/js/perfect-scrollbar.min.js?1576465899"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1576465899"></script>
-    <script src="/js/jquery.sticky.js?1576465899"></script>
-    <script src="/js/featherlight.min.js?1576465899"></script>
-    <script src="/js/highlight.pack.js?1576465899"></script>
+    <script src="/js/clipboard.min.js?1576806663"></script>
+    <script src="/js/perfect-scrollbar.min.js?1576806663"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1576806663"></script>
+    <script src="/js/jquery.sticky.js?1576806663"></script>
+    <script src="/js/featherlight.min.js?1576806663"></script>
+    <script src="/js/highlight.pack.js?1576806663"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1576465899"></script>
-    <script src="/js/learn.js?1576465899"></script>
-    <script src="/js/hugo-learn.js?1576465899"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1576806663"></script>
+    <script src="/js/learn.js?1576806663"></script>
+    <script src="/js/hugo-learn.js?1576806663"></script>
 
-    <link href="/mermaid/mermaid.css?1576465899" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1576465899"></script>
+    <link href="/mermaid/mermaid.css?1576806663" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1576806663"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
