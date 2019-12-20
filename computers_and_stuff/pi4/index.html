@@ -12,20 +12,20 @@
     <title>Pi4 :: Dave Svatora</title>
 
     
-    <link href="/css/nucleus.css?1576813443" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1576813443" rel="stylesheet">
-    <link href="/css/hybrid.css?1576813443" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1576813443" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1576813443" rel="stylesheet">
-    <link href="/css/auto-complete.css?1576813443" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1576813443" rel="stylesheet">
-    <link href="/css/theme.css?1576813443" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1576813443" rel="stylesheet">
+    <link href="/css/nucleus.css?1576818352" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1576818352" rel="stylesheet">
+    <link href="/css/hybrid.css?1576818352" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1576818352" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1576818352" rel="stylesheet">
+    <link href="/css/auto-complete.css?1576818352" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1576818352" rel="stylesheet">
+    <link href="/css/theme.css?1576818352" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1576818352" rel="stylesheet">
     
-      <link href="/css/theme-mine.css?1576813443" rel="stylesheet">
+      <link href="/css/theme-mine.css?1576818352" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1576813443"></script>
+    <script src="/js/jquery-3.3.1.min.js?1576818352"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1576813443"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1576813443"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1576818352"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1576818352"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/davesvatora.github.io\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1576813443"></script>
+<script type="text/javascript" src="/js/search.js?1576818352"></script>
 
     
   </div>
@@ -441,29 +441,8 @@
 <p>Hop on over to Ubuntu's Site to download the latest ISO for <a href="https://ubuntu.com/download/raspberry-pi">Raspberry PI4</a>. Flash the microSD card using <a href="https://www.balena.io/etcher/">Balena Etcher</a>. Once finished pop it into the PI4 and run through the installation, change passwords, etc. Finally install open-ssh.</p>
 <pre><code>sudo apt install openssh-server
 </code></pre><h4 id="wireless">Wireless</h4>
-<p>First install wireless <a href="https://askubuntu.com/a/138476">packages</a></p>
-<pre><code>sudo apt install wireless-tools wpasupplicant
-</code></pre><p>You put your SSID and password into <code>/etc/wpa_supplicant.conf</code></p>
-<pre><code>network={
-    ssid=&quot;ssid_name&quot;
-    psk=&quot;password&quot;
-}
-</code></pre><p>Assuming your interface is wlan0 you can connect with:</p>
-<pre><code>sudo wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf -D wext
-sudo dhclient wlan0
-</code></pre><p>&ldquo;wext&rdquo; is a driver and that will be specific for each card; refer to wpa_supplicant -h. Examples:</p>
-<pre><code>hostap (default) Host AP driver (Intersil Prism2/2.5/3). (this can also be used with Linuxant DriverLoader).
-hermes Agere Systems Inc. driver (Hermes-I/Hermes-II).
-madwifi MADWIFI 802.11 support (Atheros, etc.).
-atmel ATMEL AT76C5XXx (USB, PCMCIA).
-wext Linux wireless extensions (generic).
-ndiswrapper Linux ndiswrapper.
-broadcom Broadcom wl.o driver.
-ipw Intel ipw2100/2200 driver.
-wired wpa_supplicant wired Ethernet driver
-roboswitch wpa_supplicant Broadcom switch driver
-bsd BSD 802.11 support (Atheros, etc.).
-ndis Windows NDIS driver.
+<p>First install wireless network-manager to use <a href="http://manpages.ubuntu.com/manpages/eoan/en/man1/nmcli.1.html">nmcli</a></p>
+<pre><code>sudo apt install network-manager
 </code></pre>
 
 <footer class=" footline" >
@@ -690,19 +669,19 @@ ndis Windows NDIS driver.
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1576813443"></script>
-    <script src="/js/perfect-scrollbar.min.js?1576813443"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1576813443"></script>
-    <script src="/js/jquery.sticky.js?1576813443"></script>
-    <script src="/js/featherlight.min.js?1576813443"></script>
-    <script src="/js/highlight.pack.js?1576813443"></script>
+    <script src="/js/clipboard.min.js?1576818352"></script>
+    <script src="/js/perfect-scrollbar.min.js?1576818352"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1576818352"></script>
+    <script src="/js/jquery.sticky.js?1576818352"></script>
+    <script src="/js/featherlight.min.js?1576818352"></script>
+    <script src="/js/highlight.pack.js?1576818352"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1576813443"></script>
-    <script src="/js/learn.js?1576813443"></script>
-    <script src="/js/hugo-learn.js?1576813443"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1576818352"></script>
+    <script src="/js/learn.js?1576818352"></script>
+    <script src="/js/hugo-learn.js?1576818352"></script>
 
-    <link href="/mermaid/mermaid.css?1576813443" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1576813443"></script>
+    <link href="/mermaid/mermaid.css?1576818352" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1576818352"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
