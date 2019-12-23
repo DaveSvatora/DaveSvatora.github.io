@@ -12,20 +12,20 @@
     <title>Pi4 :: Dave Svatora</title>
 
     
-    <link href="/css/nucleus.css?1576818352" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1576818352" rel="stylesheet">
-    <link href="/css/hybrid.css?1576818352" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1576818352" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1576818352" rel="stylesheet">
-    <link href="/css/auto-complete.css?1576818352" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1576818352" rel="stylesheet">
-    <link href="/css/theme.css?1576818352" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1576818352" rel="stylesheet">
+    <link href="/css/nucleus.css?1577071776" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1577071776" rel="stylesheet">
+    <link href="/css/hybrid.css?1577071776" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1577071776" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1577071776" rel="stylesheet">
+    <link href="/css/auto-complete.css?1577071776" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1577071776" rel="stylesheet">
+    <link href="/css/theme.css?1577071776" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1577071776" rel="stylesheet">
     
-      <link href="/css/theme-mine.css?1576818352" rel="stylesheet">
+      <link href="/css/theme-mine.css?1577071776" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1576818352"></script>
+    <script src="/js/jquery-3.3.1.min.js?1577071776"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1576818352"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1576818352"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1577071776"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1577071776"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/davesvatora.github.io\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1576818352"></script>
+<script type="text/javascript" src="/js/search.js?1577071776"></script>
 
     
   </div>
@@ -439,10 +439,22 @@
 <p>Ultimately I'm going to try and set up a Ubuntu Server on the PI and use it to run some apps on my network, along with providing a local network share. Going to document the setup steps below.</p>
 <h4 id="installation">Installation</h4>
 <p>Hop on over to Ubuntu's Site to download the latest ISO for <a href="https://ubuntu.com/download/raspberry-pi">Raspberry PI4</a>. Flash the microSD card using <a href="https://www.balena.io/etcher/">Balena Etcher</a>. Once finished pop it into the PI4 and run through the installation, change passwords, etc. Finally install open-ssh.</p>
-<pre><code>sudo apt install openssh-server
-</code></pre><h4 id="wireless">Wireless</h4>
+<h4 id="wireless">Wireless</h4>
 <p>First install wireless network-manager to use <a href="http://manpages.ubuntu.com/manpages/eoan/en/man1/nmcli.1.html">nmcli</a></p>
 <pre><code>sudo apt install network-manager
+</code></pre><p>Connect</p>
+<pre><code>nmcli device connect wlan0
+</code></pre><p>Show</p>
+<pre><code>nmcli device show wlan0
+</code></pre><p>Disconnect</p>
+<pre><code>nmcli device disconnect wlan0
+</code></pre><h4 id="ssh">SSH</h4>
+<p>Enable ssh on the PI4, following this <a href="http://tipsonubuntu.com/2019/10/17/enable-secure-shell-ssh-service-ubuntu-19-10/">tutorial</a></p>
+<pre><code>sudo apt install openssh-server
+</code></pre><p>Configure</p>
+<pre><code>sudo nano /etc/ssh/sshd_config
+</code></pre><p>When complete restart the service</p>
+<pre><code>sudo systemctl restart ssh.service
 </code></pre>
 
 <footer class=" footline" >
@@ -669,19 +681,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1576818352"></script>
-    <script src="/js/perfect-scrollbar.min.js?1576818352"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1576818352"></script>
-    <script src="/js/jquery.sticky.js?1576818352"></script>
-    <script src="/js/featherlight.min.js?1576818352"></script>
-    <script src="/js/highlight.pack.js?1576818352"></script>
+    <script src="/js/clipboard.min.js?1577071776"></script>
+    <script src="/js/perfect-scrollbar.min.js?1577071776"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1577071776"></script>
+    <script src="/js/jquery.sticky.js?1577071776"></script>
+    <script src="/js/featherlight.min.js?1577071776"></script>
+    <script src="/js/highlight.pack.js?1577071776"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1576818352"></script>
-    <script src="/js/learn.js?1576818352"></script>
-    <script src="/js/hugo-learn.js?1576818352"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1577071776"></script>
+    <script src="/js/learn.js?1577071776"></script>
+    <script src="/js/hugo-learn.js?1577071776"></script>
 
-    <link href="/mermaid/mermaid.css?1576818352" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1576818352"></script>
+    <link href="/mermaid/mermaid.css?1577071776" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1577071776"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
