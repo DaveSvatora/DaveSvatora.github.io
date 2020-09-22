@@ -1,469 +1,698 @@
-<!DOCTYPE html>
-<html lang="en" class="js csstransforms3d">
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.61.0" />
-    <meta name="description" content="">
-
-
-    <link rel="icon" href="/images/favicon.png" type="image/png">
-
-    <title>Samba :: Dave Svatora</title>
-
     
-    <link href="/css/nucleus.css?1577139740" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1577139740" rel="stylesheet">
-    <link href="/css/hybrid.css?1577139740" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1577139740" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1577139740" rel="stylesheet">
-    <link href="/css/auto-complete.css?1577139740" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1577139740" rel="stylesheet">
-    <link href="/css/theme.css?1577139740" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1577139740" rel="stylesheet">
-    
-      <link href="/css/theme-mine.css?1577139740" rel="stylesheet">
-    
-
-    <script src="/js/jquery-3.3.1.min.js?1577139740"></script>
-
-    <style>
-      :root #header + #content > #left > #rlblock_left{
-          display:none !important;
-      }
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        :not(pre) > code + span.copy-to-clipboard {
-            display: none;
-        }
       
-    </style>
+      
+      <link rel="shortcut icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.13">
+    
+    
+      
+        <title>Samba - Hello Devs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.077507d7.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ff0a5ce4.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4cae4f">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
     
   </head>
-  <body class="" data-url="/computers_and_stuff/samba/">
-    <nav id="sidebar" class="">
-
-
-
-  <div id="header-wrapper">
-    <div id="header">
-      <a href="https://davesvatora.github.io/"><img src="/images/me2.jpg"></a>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#samba" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
     </div>
     
-        <div class="searchbox">
-    <label for="search-by"><i class="fas fa-search"></i></label>
-    <input data-search-input id="search-by" type="search" placeholder="">
-    <span data-search-clear=""><i class="fas fa-times"></i></span>
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Hello Devs" class="md-header-nav__button md-logo" aria-label="Hello Devs">
+      
+  <img src="../../images/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Hello Devs
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Samba
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<script type="text/javascript" src="/js/lunr.min.js?1577139740"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1577139740"></script>
-<script type="text/javascript">
     
-        var baseurl = "https:\/\/davesvatora.github.io\/";
     
-</script>
-<script type="text/javascript" src="/js/search.js?1577139740"></script>
-
+  </nav>
+</header>
     
-  </div>
-
-    <div class="highlightable">
-    <ul class="topics">
-
+    <div class="md-container" data-md-component="container">
+      
         
-          
-          
-
-
- 
-  
-    
-    <li data-nav-id="/about_me/" title="About Me" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/about_me/">
-          About Me
-          
-      </a>
       
       
-        <ul>
-          
-          
-          
-          
         
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
           
             
-            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Hello Devs" class="md-nav__button md-logo" aria-label="Hello Devs">
+      
+  <img src="../../images/favicon.png" alt="logo">
 
-
- 
+    </a>
+    Hello Devs
+  </label>
   
+  <ul class="md-nav__list" data-md-scrollfix>
     
-      <li data-nav-id="/about_me/nutrition/" title="Nutrition" class="dd-item ">
-        <a href="/about_me/nutrition/">
-        Nutrition
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
- 
-  
-    
-    <li data-nav-id="/computers_and_stuff/" title="Computers and Stuff" class="dd-item 
-        parent
-        
-        
-        ">
-      <a href="/computers_and_stuff/">
-          Computers and Stuff
-          
-      </a>
       
       
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
+      
 
 
- 
-  
+  <li class="md-nav__item">
+    <a href="../.." title="Welcome to my site" class="md-nav__link">
+      Welcome to my site
+    </a>
+  </li>
+
     
-      <li data-nav-id="/computers_and_stuff/samba/" title="Samba" class="dd-item active">
-        <a href="/computers_and_stuff/samba/">
-        Samba
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/computers_and_stuff/pi4/" title="Pi4" class="dd-item ">
-        <a href="/computers_and_stuff/pi4/">
-        Pi4
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/computers_and_stuff/mini_itx/" title="Mini ITX" class="dd-item ">
-        <a href="/computers_and_stuff/mini_itx/">
-        Mini ITX
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/computers_and_stuff/linux_software/" title="LinuxSoftware" class="dd-item ">
-        <a href="/computers_and_stuff/linux_software/">
-        LinuxSoftware
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
- 
-  
-    
-    <li data-nav-id="/syntax/" title="Markdown Syntax" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/syntax/">
-          Markdown Syntax
-          
-      </a>
       
       
-        <ul>
-          
-          
-          
-          
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      About me
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="About me" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        About me
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
         
           
-            
-            
+          
+          
 
 
- 
-  
-    
-      <li data-nav-id="/syntax/markdown/" title="Markdown Cheatsheet" class="dd-item ">
-        <a href="/syntax/markdown/">
-        Markdown Cheatsheet
+  <li class="md-nav__item">
+    <a href="../../about_me/hello/" title="Hello" class="md-nav__link">
+      Hello
+    </a>
+  </li>
+
         
-        </a>
-    </li>
-     
-  
- 
-
-            
           
-            
-            
+          
+          
 
 
- 
-  
-    
-      <li data-nav-id="/syntax/shortcodes/" title="Shortcodes Examples" class="dd-item ">
-        <a href="/syntax/shortcodes/">
-        Shortcodes Examples
+  <li class="md-nav__item">
+    <a href="../../about_me/nutrition/" title="Nutrition" class="md-nav__link">
+      Nutrition
+    </a>
+  </li>
+
         
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-         
-    </ul>
-
-    
-    
-      <section id="shortcuts">
-        <h3></h3>
-        <ul>
-          
-              <li> 
-                  <a class="padding" href="https://davesvatora.github.io/tags"><i class='fas fa-tags'></i> Tags</a>
-              </li>
-          
-        </ul>
-      </section>
-    
-
-    
-    <section id="footer">
-      <p>Check me out on <a href="https://github.com/DaveSvatora/documentation" target="_blank"><i class="fab fa-github"> Github</i></a></p>
-    </section>
-  </div>
-</nav>
-
-
-
-
-
-        <section id="body">
-        <div id="overlay"></div>
-        <div class="padding highlightable">
-              
-              <div>
-                <div id="top-bar">
-                
-                  
-                  
-                  
-                  <div id="top-github-link">
-                    <a class="github-link" title='' href="https://github.com/DaveSvatora/documentation/tree/master/content/computers_and_stuff/samba.md" target="blank">
-                      <i class="fas fa-code-branch"></i>
-                      <span id="top-github-link-text"></span>
-                    </a>
-                  </div>
-                  
-                
-                
-                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <span id="sidebar-toggle-span">
-                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-                          <i class="fas fa-bars"></i>
-                        </a>
-                    </span>
-                  
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
-                  <span class="links">
-                 
-                 
-                    
-          
-          
-            
-            
-          
-          
-            
-            
-          
-          
-            <a href='/'></a> > <a href='/computers_and_stuff/'>Computers and Stuff</a> > Samba
-          
-         
-          
-         
-          
-        
-                 
-                  </span>
-                </div>
-                
-                    <div class="progress">
-    <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#users-and-groups">Users and Groups</a></li>
-        <li><a href="#set-up-and-configure-samba">Set up and configure Samba</a></li>
-        <li><a href="#connect-from-another-device">Connect from another device</a></li>
-        <li><a href="#external-drive">External Drive</a></li>
-        <li><a href="#editing-fstab">Editing fstab</a></li>
       </ul>
-    </li>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Computers and stuff
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Computers and stuff" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Computers and stuff
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mini_itx/" title="Mini ITX" class="md-nav__link">
+      Mini ITX
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pi4/" title="Pi4" class="md-nav__link">
+      Pi4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Samba
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Samba" class="md-nav__link md-nav__link--active">
+      Samba
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#users-and-groups" class="md-nav__link">
+    Users and Groups
+  </a>
+  
+    <nav class="md-nav" aria-label="Users and Groups">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-user" class="md-nav__link">
+    Create User
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-group" class="md-nav__link">
+    Create Group
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-and-configure-samba" class="md-nav__link">
+    Set up and configure Samba
+  </a>
+  
+    <nav class="md-nav" aria-label="Set up and configure Samba">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#directory" class="md-nav__link">
+    Directory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-samba" class="md-nav__link">
+    Configure Samba
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-from-another-device" class="md-nav__link">
+    Connect from another device
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-drive" class="md-nav__link">
+    External Drive
+  </a>
+  
+    <nav class="md-nav" aria-label="External Drive">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1" class="md-nav__link">
+    Step 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2" class="md-nav__link">
+    Step 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3" class="md-nav__link">
+    Step 3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-fstab" class="md-nav__link">
+    Editing fstab
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Software
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Software" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        <span class="md-nav__icon md-icon"></span>
+        Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../software/linux_software/" title="LinuxSoftware" class="md-nav__link">
+      LinuxSoftware
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Syntax
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Syntax" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Syntax
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../syntax/markdown/" title="Markdown Cheatsheet" class="md-nav__link">
+      Markdown Cheatsheet
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
   </ul>
 </nav>
-    </div>
-</div>
-
-                
+                  </div>
+                </div>
               </div>
-            </div>
             
-        <div id="head-tags">
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#users-and-groups" class="md-nav__link">
+    Users and Groups
+  </a>
+  
+    <nav class="md-nav" aria-label="Users and Groups">
+      <ul class="md-nav__list">
         
-<div class="tags">
-
-  <a class="tag-link" href="/tags/samba">samba</a>
-
-  <a class="tag-link" href="/tags/network">network</a>
-
-  <a class="tag-link" href="/tags/file-share">file share</a>
-
-</div>
-
-        </div>
+          <li class="md-nav__item">
+  <a href="#create-user" class="md-nav__link">
+    Create User
+  </a>
+  
+</li>
         
-        <div id="body-inner">
+          <li class="md-nav__item">
+  <a href="#create-group" class="md-nav__link">
+    Create Group
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-and-configure-samba" class="md-nav__link">
+    Set up and configure Samba
+  </a>
+  
+    <nav class="md-nav" aria-label="Set up and configure Samba">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#directory" class="md-nav__link">
+    Directory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-samba" class="md-nav__link">
+    Configure Samba
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-from-another-device" class="md-nav__link">
+    Connect from another device
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-drive" class="md-nav__link">
+    External Drive
+  </a>
+  
+    <nav class="md-nav" aria-label="External Drive">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1" class="md-nav__link">
+    Step 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2" class="md-nav__link">
+    Step 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3" class="md-nav__link">
+    Step 3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-fstab" class="md-nav__link">
+    Editing fstab
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
-            <h1>
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
               
-              Samba
-            </h1>
-          
+                
+                
+                  
+                
+                
+                <h1 id="samba">Samba</h1>
+<p>I want to create shared folder that I can access from any device on my local network so I decided to try out <a href="https://www.samba.org/">Samba</a> to get some experience. I'm mainly using this <a href="https://www.fosslinux.com/8703/how-to-setup-samba-file-sharing-server-on-ubuntu.htm">guide</a>, but my notes will be a scaled down version. Ubuntu also has a great tutorial <a href="https://tutorials.ubuntu.com/tutorial/install-and-configure-samba#0">here</a></p>
+<h2 id="installation">Installation</h2>
+<div class="highlight"><pre><span></span><code>sudo apt install samba
+</code></pre></div>
 
-        
-
-
-
-<p>I want to create shared folder that I can access from any device on my local network so I decided to try out <a href="">Samba</a> to get some experience. I'm mainly using this <a href="https://www.fosslinux.com/8703/how-to-setup-samba-file-sharing-server-on-ubuntu.htm">guide</a>, but my notes will be a scaled down version. Ubuntu also has a great tutorial <a href="https://tutorials.ubuntu.com/tutorial/install-and-configure-samba#0">here</a></p>
-<h3 id="installation">Installation</h3>
-<pre><code>sudo apt install samba
-</code></pre><p>Verify Installation with: <code>whereis samba</code></p>
-<hr>
-<h3 id="users-and-groups">Users and Groups</h3>
+<p>Verify Installation with: <code>whereis samba</code></p>
+<hr />
+<h2 id="users-and-groups">Users and Groups</h2>
 <p>We want to create a samba user and group and add our user to the group.</p>
-
-<div class="notices note" ><p>You can use the existing Ubuntu user as well. If you do not want to add a new user skip to the <strong>Create Group</strong> step. More information about users and groups can be found <a href="https://vitux.com/add-and-manage-user-accounts-in-ubuntu-18-04-lts/">here</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can use the existing Ubuntu user as well. If you do not want to add a new user skip to the <strong>Create Group</strong> step. More information about users and groups can be found <a href="https://vitux.com/add-and-manage-user-accounts-in-ubuntu-18-04-lts/">here</a></p>
 </div>
-
-<h4 id="create-user">Create User</h4>
+<h3 id="create-user">Create User</h3>
 <p>adduser will create the new user and prompt for a password</p>
-<pre><code>sudo adduser smbuser
-</code></pre><h4 id="create-group">Create Group</h4>
-<pre><code>sudo addgroup smbgroup
-</code></pre><p>Add our user to the group</p>
-<pre><code>sudo usermod -aG smbgroup smbuser
-</code></pre><p>Set the samba password. <em>Note this will be the password used when connecting from a remote device</em></p>
-<pre><code>sudo smbpasswd -a smbuser
-</code></pre><hr>
-<h3 id="set-up-and-configure-samba">Set up and configure Samba</h3>
+<div class="highlight"><pre><span></span><code>sudo adduser smbuser
+</code></pre></div>
+
+<h3 id="create-group">Create Group</h3>
+<div class="highlight"><pre><span></span><code>sudo addgroup smbgroup
+</code></pre></div>
+
+<p>Add our user to the group</p>
+<div class="highlight"><pre><span></span><code>sudo usermod -aG smbgroup smbuser
+</code></pre></div>
+
+<p>Set the samba password. <em>Note this will be the password used when connecting from a remote device</em></p>
+<div class="highlight"><pre><span></span><code>sudo smbpasswd -a smbuser
+</code></pre></div>
+
+<hr />
+<h2 id="set-up-and-configure-samba">Set up and configure Samba</h2>
 <p>Next we will create the directory we want to share on our network and configure Samba to serve it.</p>
-<h4 id="directory">Directory</h4>
-<pre><code>sudo mkdir -p /home/smbuser/samba/share/
-</code></pre><p>Set up the permissions</p>
-<pre><code>sudo chown -R root:smbgroup /home/smbuser/samba/share
+<h3 id="directory">Directory</h3>
+<div class="highlight"><pre><span></span><code>sudo mkdir -p /home/smbuser/samba/share/
+</code></pre></div>
+
+<p>Set up the permissions</p>
+<div class="highlight"><pre><span></span><code>sudo chown -R root:smbgroup /home/smbuser/samba/share
 sudo chmod -R 0770 /home/smbuser/samba/share
-</code></pre><h4 id="configure-samba">Configure Samba</h4>
+</code></pre></div>
+
+<h3 id="configure-samba">Configure Samba</h3>
 <p>Last but not least we need to configure Samba to share our directory we just created. There are lots of configurations available, but in this case we are just going to simplify the file.</p>
-<pre><code>sudo nano /etc/samba/samba.conf
-</code></pre><p>Replace the contents with this</p>
-<pre><code>[global]
+<div class="highlight"><pre><span></span><code>sudo nano /etc/samba/samba.conf
+</code></pre></div>
+
+<p>Replace the contents with this</p>
+<div class="highlight"><pre><span></span><code>[global]
 workgroup = WORKGROUP
 server string = Samba Server %v
 netbios name = &lt;name of your machine&gt;
@@ -475,279 +704,130 @@ valid users = @smbgroup
 guest ok = no
 writable = yes
 browsable = yes
-</code></pre><p>Restart Samba</p>
-<pre><code>sudo service smbd restart
-</code></pre><p>Check the config</p>
-<pre><code>testparm
-</code></pre><hr>
-<h3 id="connect-from-another-device">Connect from another device</h3>
+</code></pre></div>
+
+<p>Restart Samba</p>
+<div class="highlight"><pre><span></span><code>sudo service smbd restart
+</code></pre></div>
+
+<p>Check the config</p>
+<div class="highlight"><pre><span></span><code>testparm
+</code></pre></div>
+
+<hr />
+<h2 id="connect-from-another-device">Connect from another device</h2>
 <p>At this point you should now be sharing a folder on your LAN. There are lots of ways to connect, the easiest is to use network discovery on the OS you are running. Another option is to manually type in the IP address. When prompted you will need to enter your user and password we created earlier.</p>
-<hr>
-<h3 id="external-drive">External Drive</h3>
+<hr />
+<h2 id="external-drive">External Drive</h2>
 <p>I had some issues getting the permissions set up right for an external hard drive. I fought with it over and over trying to get the permissions ot work right with <code>chown</code> and <code>nautilus</code>, but nothing would take. I ended up finding one answer on <a href="https://superuser.com/a/57096">superuser</a> that fixed the mount.</p>
-<h4 id="step-1">Step 1</h4>
+<h3 id="step-1">Step 1</h3>
 <p>Open <code>Disks</code> and take note of the mount point for me it was <code>/dev/sda1</code> mounted to <code>/media/&lt;user&gt;/&lt;ExternalDrive&gt;</code></p>
-<h4 id="step-2">Step 2</h4>
+<h3 id="step-2">Step 2</h3>
 <p>Unmount the drive in <code>Disks</code> selecting the external drive and pressing the stop button</p>
-<h4 id="step-3">Step 3</h4>
+<h3 id="step-3">Step 3</h3>
 <p>Remount the drive using the appropriate permissions</p>
-<pre><code>sudo mount -o uid=root,gid=smbgroup /dev/sda1 /media/&lt;user&gt;/&lt;ExternalDrive&gt;
-</code></pre>
-<div class="notices note" ><p>Replace <code>&lt;user&gt;</code> with your ubuntu user and <code>&lt;ExternalDrive&gt;</code> with the name of your external drive.</p>
+<div class="highlight"><pre><span></span><code>sudo mount -o uid=root,gid=smbgroup /dev/sda1 /media/&lt;user&gt;/&lt;ExternalDrive&gt;
+</code></pre></div>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Replace <code>&lt;user&gt;</code> with your ubuntu user and <code>&lt;ExternalDrive&gt;</code> with the name of your external drive.</p>
 </div>
-
-
-<div class="notices info" ><p>External hard drives can only be accessed by users with root access or mounted to the users directory. Ex: user1 cannot access an external samba share mounted to <code>/media/user2/drive</code></p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>External hard drives can only be accessed by users with root access or mounted to the users directory. Ex: user1 cannot access an external samba share mounted to <code>/media/user2/drive</code></p>
 </div>
-
-<h3 id="editing-fstab">Editing fstab</h3>
-
-<div class="notices warning" ><p>Danger, please know what your doing before proceeding&hellip;see this <a href="https://help.ubuntu.com/community/Fstab#Editing_fstab">guide</a></p>
+<h2 id="editing-fstab">Editing fstab</h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Danger, please know what your doing before proceeding...see this <a href="https://help.ubuntu.com/community/Fstab#Editing_fstab">guide</a></p>
 </div>
-
 <p>For me setting the permissions and ntfs-3g options auto mounted my external hard drive how I wanted.</p>
-<pre><code>UUID=FAEA8385EA833D3F   /media/&lt;user&gt;/Seagate\040Expansion\040Drive     ntfs-3g auto,users,uid=root,gid=smbgroup,locale=en_US.UTF-8     0       0
-</code></pre>
+<div class="highlight"><pre><span></span><code>UUID=FAEA8385EA833D3F   /media/&lt;user&gt;/Seagate\040Expansion\040Drive     ntfs-3g auto,users,uid=root,gid=smbgroup,locale=en_US.UTF-8     0       0
+</code></pre></div>
+                
+              
+              
+                
 
-<footer class=" footline" >
-	
-</footer>
 
-
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
         
-        </div> 
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-
+          <a href="../pi4/" title="Pi4" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Pi4
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../software/linux_software/" title="LinuxSoftware" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                LinuxSoftware
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
       </div>
-
-    <div id="navigation">
-        
-        
-        
-        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-        
-        
-
-
-	 
-	 
-		
-			<a class="nav nav-prev" href="/computers_and_stuff/" title="Computers and Stuff"> <i class="fa fa-chevron-left"></i></a>
-		
-		
-			<a class="nav nav-next" href="/computers_and_stuff/pi4/" title="Pi4" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
-		
-	
+      
     </div>
-
-    </section>
-    
-    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
-      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+  </div>
+</footer>
+      
     </div>
-    <script src="/js/clipboard.min.js?1577139740"></script>
-    <script src="/js/perfect-scrollbar.min.js?1577139740"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1577139740"></script>
-    <script src="/js/jquery.sticky.js?1577139740"></script>
-    <script src="/js/featherlight.min.js?1577139740"></script>
-    <script src="/js/highlight.pack.js?1577139740"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1577139740"></script>
-    <script src="/js/learn.js?1577139740"></script>
-    <script src="/js/hugo-learn.js?1577139740"></script>
-
-    <link href="/mermaid/mermaid.css?1577139740" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1577139740"></script>
-    <script>
-        mermaid.initialize({ startOnLoad: true });
-    </script>
     
-
+      <script src="../../assets/javascripts/vendor.2d1db4bd.min.js"></script>
+      <script src="../../assets/javascripts/bundle.6627ddf3.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
   </body>
 </html>
-

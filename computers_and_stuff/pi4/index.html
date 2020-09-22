@@ -1,706 +1,637 @@
-<!DOCTYPE html>
-<html lang="en" class="js csstransforms3d">
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.61.0" />
-    <meta name="description" content="">
-
-
-    <link rel="icon" href="/images/favicon.png" type="image/png">
-
-    <title>Pi4 :: Dave Svatora</title>
-
     
-    <link href="/css/nucleus.css?1577139740" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1577139740" rel="stylesheet">
-    <link href="/css/hybrid.css?1577139740" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1577139740" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1577139740" rel="stylesheet">
-    <link href="/css/auto-complete.css?1577139740" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1577139740" rel="stylesheet">
-    <link href="/css/theme.css?1577139740" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1577139740" rel="stylesheet">
-    
-      <link href="/css/theme-mine.css?1577139740" rel="stylesheet">
-    
-
-    <script src="/js/jquery-3.3.1.min.js?1577139740"></script>
-
-    <style>
-      :root #header + #content > #left > #rlblock_left{
-          display:none !important;
-      }
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        :not(pre) > code + span.copy-to-clipboard {
-            display: none;
-        }
       
-    </style>
+      
+      <link rel="shortcut icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.13">
+    
+    
+      
+        <title>Pi4 - Hello Devs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.077507d7.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ff0a5ce4.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4cae4f">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
     
   </head>
-  <body class="" data-url="/computers_and_stuff/pi4/">
-    <nav id="sidebar" class="">
-
-
-
-  <div id="header-wrapper">
-    <div id="header">
-      <a href="https://davesvatora.github.io/"><img src="/images/me2.jpg"></a>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#choosing-an-os" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
     </div>
     
-        <div class="searchbox">
-    <label for="search-by"><i class="fas fa-search"></i></label>
-    <input data-search-input id="search-by" type="search" placeholder="">
-    <span data-search-clear=""><i class="fas fa-times"></i></span>
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Hello Devs" class="md-header-nav__button md-logo" aria-label="Hello Devs">
+      
+  <img src="../../images/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Hello Devs
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Pi4
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<script type="text/javascript" src="/js/lunr.min.js?1577139740"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1577139740"></script>
-<script type="text/javascript">
     
-        var baseurl = "https:\/\/davesvatora.github.io\/";
     
-</script>
-<script type="text/javascript" src="/js/search.js?1577139740"></script>
-
+  </nav>
+</header>
     
-  </div>
-
-    <div class="highlightable">
-    <ul class="topics">
-
+    <div class="md-container" data-md-component="container">
+      
         
-          
-          
-
-
- 
-  
-    
-    <li data-nav-id="/about_me/" title="About Me" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/about_me/">
-          About Me
-          
-      </a>
       
       
-        <ul>
-          
-          
-          
-          
         
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
           
             
-            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Hello Devs" class="md-nav__button md-logo" aria-label="Hello Devs">
+      
+  <img src="../../images/favicon.png" alt="logo">
 
-
- 
+    </a>
+    Hello Devs
+  </label>
   
+  <ul class="md-nav__list" data-md-scrollfix>
     
-      <li data-nav-id="/about_me/nutrition/" title="Nutrition" class="dd-item ">
-        <a href="/about_me/nutrition/">
-        Nutrition
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
- 
-  
-    
-    <li data-nav-id="/computers_and_stuff/" title="Computers and Stuff" class="dd-item 
-        parent
-        
-        
-        ">
-      <a href="/computers_and_stuff/">
-          Computers and Stuff
-          
-      </a>
       
       
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
+      
 
 
- 
-  
+  <li class="md-nav__item">
+    <a href="../.." title="Welcome to my site" class="md-nav__link">
+      Welcome to my site
+    </a>
+  </li>
+
     
-      <li data-nav-id="/computers_and_stuff/samba/" title="Samba" class="dd-item ">
-        <a href="/computers_and_stuff/samba/">
-        Samba
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/computers_and_stuff/pi4/" title="Pi4" class="dd-item active">
-        <a href="/computers_and_stuff/pi4/">
-        Pi4
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/computers_and_stuff/mini_itx/" title="Mini ITX" class="dd-item ">
-        <a href="/computers_and_stuff/mini_itx/">
-        Mini ITX
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/computers_and_stuff/linux_software/" title="LinuxSoftware" class="dd-item ">
-        <a href="/computers_and_stuff/linux_software/">
-        LinuxSoftware
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
- 
-  
-    
-    <li data-nav-id="/syntax/" title="Markdown Syntax" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/syntax/">
-          Markdown Syntax
-          
-      </a>
       
       
-        <ul>
-          
-          
-          
-          
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      About me
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="About me" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        About me
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
         
           
-            
-            
+          
+          
 
 
- 
-  
-    
-      <li data-nav-id="/syntax/markdown/" title="Markdown Cheatsheet" class="dd-item ">
-        <a href="/syntax/markdown/">
-        Markdown Cheatsheet
+  <li class="md-nav__item">
+    <a href="../../about_me/hello/" title="Hello" class="md-nav__link">
+      Hello
+    </a>
+  </li>
+
         
-        </a>
-    </li>
-     
-  
- 
-
-            
           
-            
-            
+          
+          
 
 
- 
-  
-    
-      <li data-nav-id="/syntax/shortcodes/" title="Shortcodes Examples" class="dd-item ">
-        <a href="/syntax/shortcodes/">
-        Shortcodes Examples
+  <li class="md-nav__item">
+    <a href="../../about_me/nutrition/" title="Nutrition" class="md-nav__link">
+      Nutrition
+    </a>
+  </li>
+
         
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-         
-    </ul>
-
-    
-    
-      <section id="shortcuts">
-        <h3></h3>
-        <ul>
-          
-              <li> 
-                  <a class="padding" href="https://davesvatora.github.io/tags"><i class='fas fa-tags'></i> Tags</a>
-              </li>
-          
-        </ul>
-      </section>
-    
-
-    
-    <section id="footer">
-      <p>Check me out on <a href="https://github.com/DaveSvatora/documentation" target="_blank"><i class="fab fa-github"> Github</i></a></p>
-    </section>
-  </div>
-</nav>
-
-
-
-
-
-        <section id="body">
-        <div id="overlay"></div>
-        <div class="padding highlightable">
-              
-              <div>
-                <div id="top-bar">
-                
-                  
-                  
-                  
-                  <div id="top-github-link">
-                    <a class="github-link" title='' href="https://github.com/DaveSvatora/documentation/tree/master/content/computers_and_stuff/pi4.md" target="blank">
-                      <i class="fas fa-code-branch"></i>
-                      <span id="top-github-link-text"></span>
-                    </a>
-                  </div>
-                  
-                
-                
-                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <span id="sidebar-toggle-span">
-                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-                          <i class="fas fa-bars"></i>
-                        </a>
-                    </span>
-                  
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
-                  <span class="links">
-                 
-                 
-                    
-          
-          
-            
-            
-          
-          
-            
-            
-          
-          
-            <a href='/'></a> > <a href='/computers_and_stuff/'>Computers and Stuff</a> > Pi4
-          
-         
-          
-         
-          
-        
-                 
-                  </span>
-                </div>
-                
-                    <div class="progress">
-    <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#choosing-an-os">Choosing an OS</a>
-      <ul>
-        <li><a href="#first-try">First Try</a></li>
-        <li><a href="#manjaro">Manjaro</a></li>
-        <li><a href="#ubuntu">Ubuntu</a></li>
       </ul>
-    </li>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Computers and stuff
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Computers and stuff" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Computers and stuff
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mini_itx/" title="Mini ITX" class="md-nav__link">
+      Mini ITX
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Pi4
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Pi4" class="md-nav__link md-nav__link--active">
+      Pi4
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#choosing-an-os" class="md-nav__link">
+    Choosing an OS
+  </a>
+  
+    <nav class="md-nav" aria-label="Choosing an OS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-try" class="md-nav__link">
+    First Try
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manjaro" class="md-nav__link">
+    Manjaro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu" class="md-nav__link">
+    Ubuntu
+  </a>
+  
+    <nav class="md-nav" aria-label="Ubuntu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wireless" class="md-nav__link">
+    Wireless
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../samba/" title="Samba" class="md-nav__link">
+      Samba
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Software
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Software" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        <span class="md-nav__icon md-icon"></span>
+        Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../software/linux_software/" title="LinuxSoftware" class="md-nav__link">
+      LinuxSoftware
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Syntax
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Syntax" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Syntax
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../syntax/markdown/" title="Markdown Cheatsheet" class="md-nav__link">
+      Markdown Cheatsheet
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
   </ul>
 </nav>
-    </div>
-</div>
-
-                
+                  </div>
+                </div>
               </div>
-            </div>
             
-        <div id="head-tags">
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#choosing-an-os" class="md-nav__link">
+    Choosing an OS
+  </a>
+  
+    <nav class="md-nav" aria-label="Choosing an OS">
+      <ul class="md-nav__list">
         
-<div class="tags">
-
-  <a class="tag-link" href="/tags/pi">pi</a>
-
-  <a class="tag-link" href="/tags/raspbian">raspbian</a>
-
-  <a class="tag-link" href="/tags/linux">linux</a>
-
-</div>
-
-        </div>
+          <li class="md-nav__item">
+  <a href="#first-try" class="md-nav__link">
+    First Try
+  </a>
+  
+</li>
         
-        <div id="body-inner">
+          <li class="md-nav__item">
+  <a href="#manjaro" class="md-nav__link">
+    Manjaro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu" class="md-nav__link">
+    Ubuntu
+  </a>
+  
+    <nav class="md-nav" aria-label="Ubuntu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wireless" class="md-nav__link">
+    Wireless
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
-            <h1>
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
               
-              Pi4
-            </h1>
-          
-
-        
-
-
-
-<p>I got a <code>Raspberry Pi 4</code> recently to play around with on some home projects. I am going to try to see if its functional as a developer machine as well as run some dockerized apps on it. This post will document my experience and steps to get stuff up and running. Most of the documentation I do is essentially bread crumbs that I can later use to recreate something if I decide to blow it away and start over.</p>
+                
+                
+                  
+                
+                
+                  <h1>Pi4</h1>
+                
+                <p>I got a <code>Raspberry Pi 4</code> recently to play around with on some home projects. I am going to try to see if its functional as a developer machine as well as run some dockerized apps on it. This post will document my experience and steps to get stuff up and running. Most of the documentation I do is essentially bread crumbs that I can later use to recreate something if I decide to blow it away and start over. </p>
 <h2 id="choosing-an-os">Choosing an OS</h2>
 <p>My first choice is to pick an OS. There aren't many available <strong>yet</strong> for PI4 so I'm starting with the officially supported <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian Buster Lite</a> distro. I'm also going to try to install the <code>Mate Desktop GUI</code> on top of Raspbian. <a href="https://www.raspberrypi.org/forums/viewtopic.php?t=133691">This guide</a> talks about the steps you need to take to make it all work together.</p>
 <h3 id="first-try">First Try</h3>
-<p>I got the PI4 connected, booted up, and all was going well&hellip;then I changed my password. Little did I know that changing the keyboard to US would end up bricking my OS. Because I used <code>special characters</code> in my password I got stuck on the terminal login with no way to get past it&hellip;time to reload the OS&hellip;fail #1</p>
+<p>I got the PI4 connected, booted up, and all was going well...then I changed my password. Little did I know that changing the keyboard to US would end up bricking my OS. Because I used <code>special characters</code> in my password I got stuck on the terminal login with no way to get past it...time to reload the OS...fail #1</p>
 <h3 id="manjaro">Manjaro</h3>
 <p>I tried out manjaro and it was very nice on the PI. I was able to install some software, overclock the cpu and gpu, and try some stuff out. One quirk I found that led me to keep looking was the display resolution. For whatever reason it changed the monitor settings so that there was a border around the entire screen. I couldn't figure out how to get it to change back so I kept looking for other options.</p>
 <h3 id="ubuntu">Ubuntu</h3>
 <p>Ultimately I'm going to try and set up a Ubuntu Server on the PI and use it to run some apps on my network, along with providing a local network share. Going to document the setup steps below.</p>
 <h4 id="installation">Installation</h4>
 <p>Hop on over to Ubuntu's Site to download the latest ISO for <a href="https://ubuntu.com/download/raspberry-pi">Raspberry PI4</a>. Flash the microSD card using <a href="https://www.balena.io/etcher/">Balena Etcher</a>. Once finished pop it into the PI4 and run through the installation, change passwords, etc. Finally install open-ssh.</p>
+<div class="highlight"><pre><span></span><code>sudo apt install openssh-server
+</code></pre></div>
+
 <h4 id="wireless">Wireless</h4>
 <p>First install wireless network-manager to use <a href="http://manpages.ubuntu.com/manpages/eoan/en/man1/nmcli.1.html">nmcli</a></p>
-<pre><code>sudo apt install network-manager
-</code></pre><p>Connect</p>
-<pre><code>nmcli device connect wlan0
-</code></pre><p>Show</p>
-<pre><code>nmcli device show wlan0
-</code></pre><p>Disconnect</p>
-<pre><code>nmcli device disconnect wlan0
-</code></pre><h4 id="ssh">SSH</h4>
-<p>Enable ssh on the PI4, following this <a href="http://tipsonubuntu.com/2019/10/17/enable-secure-shell-ssh-service-ubuntu-19-10/">tutorial</a></p>
-<pre><code>sudo apt install openssh-server
-</code></pre><p>Configure</p>
-<pre><code>sudo nano /etc/ssh/sshd_config
-</code></pre><p>When complete restart the service</p>
-<pre><code>sudo systemctl restart ssh.service
-</code></pre><p>Connect from a remote machine with</p>
-<pre><code>ssh ubuntu@&lt;ip-address&gt;
-</code></pre>
-
-<footer class=" footline" >
-	
-</footer>
+<div class="highlight"><pre><span></span><code>sudo apt install network-manager
+</code></pre></div>
+                
+                  
+                
+              
+              
+                
 
 
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
         
-        </div> 
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-
+          <a href="../mini_itx/" title="Mini ITX" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Mini ITX
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../samba/" title="Samba" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Samba
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
       </div>
-
-    <div id="navigation">
-        
-        
-        
-        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-        
-        
-
-
-	 
-	 
-		
-			<a class="nav nav-prev" href="/computers_and_stuff/samba/" title="Samba"> <i class="fa fa-chevron-left"></i></a>
-		
-		
-			<a class="nav nav-next" href="/computers_and_stuff/mini_itx/" title="Mini ITX" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
-		
-	
+      
     </div>
-
-    </section>
-    
-    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
-      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+  </div>
+</footer>
+      
     </div>
-    <script src="/js/clipboard.min.js?1577139740"></script>
-    <script src="/js/perfect-scrollbar.min.js?1577139740"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1577139740"></script>
-    <script src="/js/jquery.sticky.js?1577139740"></script>
-    <script src="/js/featherlight.min.js?1577139740"></script>
-    <script src="/js/highlight.pack.js?1577139740"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1577139740"></script>
-    <script src="/js/learn.js?1577139740"></script>
-    <script src="/js/hugo-learn.js?1577139740"></script>
-
-    <link href="/mermaid/mermaid.css?1577139740" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1577139740"></script>
-    <script>
-        mermaid.initialize({ startOnLoad: true });
-    </script>
     
-
+      <script src="../../assets/javascripts/vendor.2d1db4bd.min.js"></script>
+      <script src="../../assets/javascripts/bundle.6627ddf3.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
   </body>
 </html>
-

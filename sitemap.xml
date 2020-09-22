@@ -1,174 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://davesvatora.github.io/about_me/</loc>
-    <lastmod>2019-04-06T13:04:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/computers_and_stuff/</loc>
-    <lastmod>2019-04-06T13:04:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/</loc>
-    <lastmod>2019-12-15T08:42:06-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/file-share/</loc>
-    <lastmod>2019-12-15T08:42:06-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/network/</loc>
-    <lastmod>2019-12-15T08:42:06-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/computers_and_stuff/samba/</loc>
-    <lastmod>2019-12-15T08:42:06-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/samba/</loc>
-    <lastmod>2019-12-15T08:42:06-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/</loc>
-    <lastmod>2019-12-15T08:42:06-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/linux/</loc>
-    <lastmod>2019-09-15T21:49:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/pi/</loc>
-    <lastmod>2019-09-15T21:49:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/computers_and_stuff/pi4/</loc>
-    <lastmod>2019-09-15T21:49:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/raspbian/</loc>
-    <lastmod>2019-09-15T21:49:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/diet/</loc>
-    <lastmod>2019-07-05T17:52:09-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/health/</loc>
-    <lastmod>2019-07-05T17:52:09-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/intermittent-fasting/</loc>
-    <lastmod>2019-07-05T17:52:09-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/about_me/nutrition/</loc>
-    <lastmod>2019-07-05T17:52:09-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/nutrition/</loc>
-    <lastmod>2019-07-05T17:52:09-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/vegetarian/</loc>
-    <lastmod>2019-07-05T17:52:09-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/custom/</loc>
-    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/dualboot/</loc>
-    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/itx/</loc>
-    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/computers_and_stuff/mini_itx/</loc>
-    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/ryzen/</loc>
-    <lastmod>2019-04-06T13:09:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/apt/</loc>
-    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/docker/</loc>
-    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/gradle/</loc>
-    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/computers_and_stuff/linux_software/</loc>
-    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/syntax/markdown/</loc>
-    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/syntax/</loc>
-    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/nodejs/</loc>
-    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/pop_os/</loc>
-    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/tags/spotify/</loc>
-    <lastmod>2019-04-06T13:08:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://davesvatora.github.io/syntax/shortcodes/</loc>
-  </url>
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>None</loc>
+     <lastmod>2020-09-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-09-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-09-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-09-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-09-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-09-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-09-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-09-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
 </urlset>
