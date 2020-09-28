@@ -380,6 +380,54 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#creating-a-database-using-docker" class="md-nav__link">
+    Creating a database using docker
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating a database using docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dockerfile" class="md-nav__link">
+    Dockerfile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql" class="md-nav__link">
+    SQL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-your-image" class="md-nav__link">
+    Build your image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-it" class="md-nav__link">
+    Run it
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-with-pgadmin4" class="md-nav__link">
+    Connect with PGAdmin4
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -484,6 +532,54 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#creating-a-database-using-docker" class="md-nav__link">
+    Creating a database using docker
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating a database using docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dockerfile" class="md-nav__link">
+    Dockerfile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql" class="md-nav__link">
+    SQL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-your-image" class="md-nav__link">
+    Build your image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-it" class="md-nav__link">
+    Run it
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-with-pgadmin4" class="md-nav__link">
+    Connect with PGAdmin4
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -506,6 +602,42 @@
 <h2 id="installation">Installation</h2>
 <p>Installing PGAdmin4 through <code>APT</code> package manager is a good way to get Postgresql set up on a Ubuntu based distro, here's the latest instructions.</p>
 <p><a href="https://www.pgadmin.org/download/pgadmin-4-apt/" target="_blank" class="md-button">PGAdmin4 Intallation Instructions</a></p>
+<h2 id="creating-a-database-using-docker">Creating a database using docker</h2>
+<p>Docker is a fun way to run a database, and a good way to learn about <strong>Docker Volumes</strong>. Here's a simple way to start.</p>
+<p>Create a folder structure like so...</p>
+<div class="highlight"><pre><span></span><code>/db
+    Dockerfile
+    /scripts
+        database-definition.sql
+</code></pre></div>
+
+<h3 id="dockerfile">Dockerfile</h3>
+<div class="highlight"><pre><span></span><code><span class="k">FROM</span> <span class="s">postgres:alpine</span>
+<span class="k">COPY</span> scripts/ /docker-entrypoint-initdb.d
+</code></pre></div>
+
+<h3 id="sql">SQL</h3>
+<div class="highlight"><pre><span></span><code><span class="k">CREATE</span> <span class="k">SCHEMA</span> <span class="n">postgres</span> <span class="k">AUTHORIZATION</span> <span class="n">postgres</span><span class="p">;</span>
+
+<span class="k">CREATE</span> <span class="n">SEQUENCE</span> <span class="n">kidseq</span> <span class="k">START</span> <span class="mi">1</span><span class="p">;</span>
+
+<span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">postgres</span><span class="p">.</span><span class="n">kid</span> <span class="p">(</span>
+    <span class="n">kid_id</span> <span class="nb">numeric</span> <span class="k">NOT</span> <span class="k">NULL</span> <span class="k">DEFAULT</span> <span class="n">nextval</span><span class="p">(</span><span class="s1">&#39;kidseq&#39;</span><span class="p">)</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
+    <span class="n">kid_name</span> <span class="nb">text</span><span class="p">,</span>
+    <span class="n">balance</span> <span class="n">money</span>
+<span class="p">);</span>
+</code></pre></div>
+
+<h3 id="build-your-image">Build your image</h3>
+<div class="highlight"><pre><span></span><code>docker build -t mydatabase .
+</code></pre></div>
+
+<h3 id="run-it">Run it</h3>
+<div class="highlight"><pre><span></span><code>docker run --rm -it -p <span class="m">5432</span>:5432 -e <span class="nv">POSTGRES_PASSWORD</span><span class="o">=</span>&lt;DatabasePassword&gt; mydatabase
+</code></pre></div>
+
+<h2 id="connect-with-pgadmin4">Connect with PGAdmin4</h2>
+<p><a href="" target="_blank" class="md-button">Connection Instructions</a></p>
                 
                   
                     
