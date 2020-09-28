@@ -412,6 +412,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#result" class="md-nav__link">
+    Result
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#startup" class="md-nav__link">
     Startup
   </a>
@@ -506,6 +513,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#result" class="md-nav__link">
+    Result
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#startup" class="md-nav__link">
     Startup
   </a>
@@ -530,8 +544,8 @@
                 
                 
                 <h1 id="xps-keys">xps keys</h1>
-<p><span class="keys"><kbd class="key-page-up">Page Up</kbd><span>+</span><kbd class="key-arrow-up">Up</kbd><span>+</span><kbd class="key-page-down">Page Down</kbd></span> 
-<span class="keys"><kbd class="key-arrow-left">Left</kbd><span>+</span><kbd class="key-arrow-down">Down</kbd><span>+</span><kbd class="key-arrow-right">Right</kbd></span></p>
+<p><span class="keys"><kbd class="key-page-up">Page Up</kbd></span> <span class="keys"><kbd class="key-arrow-up">Up</kbd></span> <span class="keys"><kbd class="key-page-down">Page Down</kbd></span> </p>
+<p><span class="keys"><kbd class="key-arrow-left">Left</kbd></span> <span class="keys"><kbd class="key-arrow-down">Down</kbd></span> <span class="keys"><kbd class="key-arrow-right">Right</kbd></span></p>
 <p>I have a Dell XPS 13 7390 and the arrow keys are super close to the page up/down buttons. That makes it annoying when trying to use arrows when coding/typing. To resolve this I'm going to remove the page up/down keys and turn those into left and right (the arrow keys they are closest to).</p>
 <h2 id="finding-keycodesactions">Finding keycodes/actions</h2>
 <p><code>xev</code> will log the keycodes and actions for each key press in the terminal, for me these were:</p>
@@ -545,22 +559,22 @@
 </thead>
 <tbody>
 <tr>
-<td>Right Arrow</td>
+<td><span class="keys"><kbd class="key-arrow-right">Right</kbd></span></td>
 <td>114</td>
 <td>Right</td>
 </tr>
 <tr>
-<td>Left Arrow</td>
+<td><span class="keys"><kbd class="key-arrow-left">Left</kbd></span></td>
 <td>113</td>
 <td>Left</td>
 </tr>
 <tr>
-<td>PgDn</td>
+<td><span class="keys"><kbd class="key-page-down">Page Down</kbd></span></td>
 <td>117</td>
 <td>Dont Care</td>
 </tr>
 <tr>
-<td>PgUp</td>
+<td><span class="keys"><kbd class="key-page-up">Page Up</kbd></span></td>
 <td>112</td>
 <td>Dont Care</td>
 </tr>
@@ -568,17 +582,21 @@
 </table>
 <h2 id="changing-keys">Changing Keys</h2>
 <ul>
-<li>I want to change PgDn (117) to Right (Action)</li>
-</ul>
+<li>
+<p>I want to change <span class="keys"><kbd class="key-page-down">Page Down</kbd></span> (117) to Right (Action)
 <div class="highlight"><pre><span></span><code>xmodmap -e &quot;keycode 117 = Right&quot;
-</code></pre></div>
-
-<ul>
-<li>I want to change PgDn (112) to Left (Action)</li>
+</code></pre></div></p>
+</li>
+<li>
+<p>I want to change <span class="keys"><kbd class="key-page-up">Page Up</kbd></span> (112) to Left (Action)</p>
+</li>
 </ul>
 <div class="highlight"><pre><span></span><code>xmodmap -e &quot;keycode 112 = Left&quot;
 </code></pre></div>
 
+<h2 id="result">Result</h2>
+<p><span class="keys"><kbd class="key-arrow-left">Left</kbd></span> <span class="keys"><kbd class="key-arrow-up">Up</kbd></span> <span class="keys"><kbd class="key-arrow-right">Right</kbd></span> </p>
+<p><span class="keys"><kbd class="key-arrow-left">Left</kbd></span> <span class="keys"><kbd class="key-arrow-down">Down</kbd></span> <span class="keys"><kbd class="key-arrow-right">Right</kbd></span></p>
 <h2 id="startup">Startup</h2>
 <p>Create a startup script that makes the key mapping changes "permanent"</p>
 <div class="highlight"><pre><span></span><code>mkdir startup &amp;&amp; cd startup/
